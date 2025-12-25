@@ -3,6 +3,7 @@ import type { Player } from '../types/fpl';
 import { dataService } from './dataService';
 
 const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
+const BOOTSTRAP_STATIC_URL = '/fpl-viz/data/breakout_players.json';
 
 export interface XGIGameweek {
   gameweek: number;
@@ -89,7 +90,7 @@ class BreakoutService {
 
     try {
       const response = await axios.get<CachedBreakoutPlayer[]>(
-        `${BACKEND_API_BASE}/api/breakout-players?limit=200`,
+        BOOTSTRAP_STATIC_URL,
         { timeout: 10000 }
       );
 
