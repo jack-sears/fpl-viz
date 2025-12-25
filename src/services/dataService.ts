@@ -15,7 +15,7 @@ import type {
 // Backend API base URL (Python Flask server)
 // Change this if your backend runs on a different port
 const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
-const BOOTSTRAP_STATIC_URL = `${BACKEND_API_BASE}/api/bootstrap-static/`;
+const BOOTSTRAP_STATIC_URL = '/fpl-viz/data/fpl_bootstrap.json';
 
 class DataService {
   private bootstrapData: FPLBootstrapResponse | null = null;
@@ -323,7 +323,7 @@ class DataService {
   async getFixtures(): Promise<Fixture[]> {
     try {
       const response = await axios.get<Fixture[]>(
-        `${BACKEND_API_BASE}/api/fixtures/`,
+        '/fpl-viz/data/fpl_fixtures.json',
         { timeout: 15000 }
       );
       return response.data;
