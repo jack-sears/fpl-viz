@@ -3,7 +3,7 @@ import type { Player } from '../types/fpl';
 import { dataService } from './dataService';
 import type { XGIGameweek } from './breakoutService';
 
-const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
+//const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
 
 export interface DownfallPlayer {
   player: Player;

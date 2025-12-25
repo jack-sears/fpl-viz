@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { Player } from '../types/fpl';
 import { dataService } from './dataService';
 
-const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
+//const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
 
 export interface UpcomingFixture {
   opponent_id: number;
