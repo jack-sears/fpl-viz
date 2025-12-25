@@ -3,6 +3,7 @@ export interface Player {
   id: number;
   name: string;
   team: string;
+  teamId: number;
   position: string;
   price: number;
   totalPoints: number;
@@ -25,6 +26,29 @@ export interface Player {
   influence?: number;
   creativity?: number;
   threat?: number;
+  // Season-long expected metrics (from bootstrap or aggregated)
+  expectedGoals?: number;
+  expectedAssists?: number;
+  expectedGoalInvolvements?: number;
+  expectedGoalsConceded?: number;
+  minutes?: number;
+  xGPer90?: number;
+  xAPer90?: number;
+  xGIPer90?: number;
+  expectedPoints?: number; // Placeholder for xP model (Phase 3)
+}
+
+export interface Fixture {
+  id: number;
+  event: number | null; // gameweek
+  team_h: number;
+  team_a: number;
+  team_h_difficulty: number;
+  team_a_difficulty: number;
+  finished: boolean;
+  kickoff_time: string | null;
+  team_h_score: number | null;
+  team_a_score: number | null;
 }
 
 export interface Team {
@@ -49,6 +73,9 @@ export interface PlayerStats {
     points: number;
     goals: number;
     assists: number;
+    expectedGoals?: number;
+    expectedAssists?: number;
+    expectedGoalInvolvements?: number;
   }[];
 }
 
@@ -93,6 +120,7 @@ export interface FPLPlayer {
   expected_goals?: string;
   expected_assists?: string;
   expected_goal_involvements?: string;
+  expected_goals_conceded?: string;
 }
 
 export interface FPLTeam {
@@ -151,5 +179,9 @@ export interface FPLPlayerHistory {
   selected: number;
   transfers_in: number;
   transfers_out: number;
+  expected_goals?: string;
+  expected_assists?: string;
+  expected_goal_involvements?: string;
+  expected_goals_conceded?: string;
 }
 

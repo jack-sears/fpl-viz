@@ -4,6 +4,7 @@ import type {
   Team, 
   Gameweek, 
   PlayerStats,
+  Fixture,
   FPLBootstrapResponse,
   FPLPlayer,
   FPLTeam,
@@ -135,6 +136,14 @@ class DataService {
     const influence = parseFloat(fplPlayer.influence) || 0;
     const creativity = parseFloat(fplPlayer.creativity) || 0;
     const threat = parseFloat(fplPlayer.threat) || 0;
+    const expectedGoals = fplPlayer.expected_goals ? parseFloat(fplPlayer.expected_goals) || 0 : undefined;
+    const expectedAssists = fplPlayer.expected_assists ? parseFloat(fplPlayer.expected_assists) || 0 : undefined;
+    const expectedGoalInvolvements = fplPlayer.expected_goal_involvements
+      ? parseFloat(fplPlayer.expected_goal_involvements) || 0
+      : undefined;
+    const expectedGoalsConceded = fplPlayer.expected_goals_conceded
+      ? parseFloat(fplPlayer.expected_goals_conceded) || 0
+      : undefined;
 
     // Price is in tenths (e.g., 100 = £10.0m)
     const price = fplPlayer.now_cost / 10;
@@ -142,11 +151,20 @@ class DataService {
     // Calculate value (points per million)
     const value = price > 0 ? fplPlayer.total_points / price : 0;
 
+    // Per 90 metrics (if minutes available)
+    const minutes = fplPlayer.minutes;
+    const denominator = minutes && minutes > 0 ? minutes / 90 : 0;
+    const xGPer90 = denominator && expectedGoals !== undefined ? expectedGoals / denominator : undefined;
+    const xAPer90 = denominator && expectedAssists !== undefined ? expectedAssists / denominator : undefined;
+    const xGIPer90 =
+      denominator && expectedGoalInvolvements !== undefined ? expectedGoalInvolvements / denominator : undefined;
+
     return {
       id: fplPlayer.id,
       name: `${fplPlayer.first_name} ${fplPlayer.second_name}`.trim(),
       webName: fplPlayer.web_name,
       team: team?.name || 'Unknown',
+      teamId: fplPlayer.team,
       position,
       price,
       totalPoints: fplPlayer.total_points,
@@ -168,6 +186,19 @@ class DataService {
       influence,
       creativity,
       threat,
+      expectedGoals,
+      expectedAssists,
+      expectedGoalInvolvements,
+      expectedGoalsConceded,
+      minutes,
+      xGPer90,
+      xAPer90,
+      xGIPer90,
+      // Placeholder for xP model - simple calculation for now
+      // TODO: Replace with proper expected points model in Phase 3
+      expectedPoints: expectedGoalInvolvements 
+        ? Math.round((expectedGoalInvolvements * 4) + (fplPlayer.clean_sheets * 4) + (fplPlayer.bonus * 1))
+        : undefined,
     };
   }
 
@@ -230,6 +261,11 @@ class DataService {
           points: history.total_points,
           goals: history.goals_scored,
           assists: history.assists,
+          expectedGoals: history.expected_goals ? parseFloat(history.expected_goals) || 0 : undefined,
+          expectedAssists: history.expected_assists ? parseFloat(history.expected_assists) || 0 : undefined,
+          expectedGoalInvolvements: history.expected_goal_involvements
+            ? parseFloat(history.expected_goal_involvements) || 0
+            : undefined,
         }));
 
       return {
@@ -284,6 +320,25 @@ class DataService {
       console.error('Error fetching gameweeks:', error);
       return [];
     }
+  }
+
+  async getFixtures(): Promise<Fixture[]> {
+    try {
+      const response = await axios.get<Fixture[]>(
+        `${BACKEND_API_BASE}/api/fixtures/`,
+        { timeout: 15000 }
+      );
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching fixtures:', error);
+      return [];
+    }
+  }
+
+  getCurrentGameweek(): number {
+    if (!this.bootstrapData) return 1;
+    const current = this.bootstrapData.events.find(e => e.id && !e.finished);
+    return current?.id || this.bootstrapData.events.filter(e => e.finished).length + 1;
   }
 
   // Mock data generators for development

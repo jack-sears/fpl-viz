@@ -1,0 +1,1948 @@
+[
+  {
+    "player_id": 237,
+    "name": "Enzo Fernández",
+    "web_name": "Enzo",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "MID",
+    "recent_xgi_per90": 0.5470588235294118,
+    "season_xgi_per90": 0.5969253294289898,
+    "trend_ratio": -0.0835389343375319,
+    "breakout_score": 0.5013581123918208,
+    "consistency": 0.40012666509564393,
+    "recent_minutes": 306,
+    "total_minutes": 1366,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.1,
+        "minutes": 78,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 1.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 1.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.16999999999999998,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 1.5,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.56,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.65,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.75,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.81,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.5800000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.37,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.8800000000000001,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.03,
+        "minutes": 36,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.3580795880534495
+  },
+  {
+    "player_id": 712,
+    "name": "Yéremy Pino Santos",
+    "web_name": "Yeremy",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "MID",
+    "recent_xgi_per90": 0.5625,
+    "season_xgi_per90": 0.49260355029585795,
+    "trend_ratio": 0.14189189189189197,
+    "breakout_score": 0.6423141891891891,
+    "consistency": 0.2857634361927449,
+    "recent_minutes": 328,
+    "total_minutes": 1014,
+    "xgi_history": [
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.76,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.37,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.37,
+        "minutes": 73,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.26,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.2,
+        "minutes": 63,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 58,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.12000000000000001,
+        "minutes": 77,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.29000000000000004,
+        "minutes": 24,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.64,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.45,
+        "minutes": 77,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.23,
+        "minutes": 63,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.64,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 1.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.18,
+        "minutes": 85,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.3518354670825679
+  },
+  {
+    "player_id": 384,
+    "name": "Cody Gakpo",
+    "web_name": "Gakpo",
+    "team": "Liverpool",
+    "team_id": 12,
+    "position": "MID",
+    "recent_xgi_per90": 0.47198697068403905,
+    "season_xgi_per90": 0.539524647887324,
+    "trend_ratio": -0.12517996623092137,
+    "breakout_score": 0.41290365763237613,
+    "consistency": 0.3934606287476366,
+    "recent_minutes": 307,
+    "total_minutes": 1136,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.64,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.53,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.18,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.16999999999999998,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.93,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 1.56,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.52,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.31000000000000005,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.16999999999999998,
+        "minutes": 34,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.41,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.86,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.06,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.28,
+        "minutes": 82,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.3272429407047303
+  },
+  {
+    "player_id": 714,
+    "name": "Nick Woltemade",
+    "web_name": "Woltemade",
+    "team": "Newcastle",
+    "team_id": 15,
+    "position": "FWD",
+    "recent_xgi_per90": 0.4922330097087379,
+    "season_xgi_per90": 0.516986301369863,
+    "trend_ratio": -0.047879975921095205,
+    "breakout_score": 0.4686649050563153,
+    "consistency": 0.45633912684570427,
+    "recent_minutes": 309,
+    "total_minutes": 1095,
+    "xgi_history": [
+      {
+        "gameweek": 4,
+        "xGI": 0.28,
+        "minutes": 64,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.02,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.31,
+        "minutes": 66,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 1.4500000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.78,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.4,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.04,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.61,
+        "minutes": 84,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.7,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.31,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.21,
+        "minutes": 73,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 74,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 1.15,
+        "minutes": 72,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.28106522401154965
+  },
+  {
+    "player_id": 84,
+    "name": "Marcus Tavernier",
+    "web_name": "Tavernier",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "MID",
+    "recent_xgi_per90": 0.38999999999999996,
+    "season_xgi_per90": 0.3812874251497006,
+    "trend_ratio": 0.022850412249705427,
+    "breakout_score": 0.3989116607773851,
+    "consistency": 0.3210433195331511,
+    "recent_minutes": 300,
+    "total_minutes": 1336,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.4,
+        "minutes": 77,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.36,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.15,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.09,
+        "minutes": 74,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.02,
+        "minutes": 30,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.05,
+        "minutes": 60,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.61,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.16999999999999998,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.48,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 1.27,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.33,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 30,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.28,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.87,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.25887764448339284
+  },
+  {
+    "player_id": 515,
+    "name": "Morgan Gibbs-White",
+    "web_name": "Gibbs-White",
+    "team": "Nott'm Forest",
+    "team_id": 16,
+    "position": "MID",
+    "recent_xgi_per90": 0.2868421052631579,
+    "season_xgi_per90": 0.3272151898734177,
+    "trend_ratio": -0.1233838949404458,
+    "breakout_score": 0.25145040908287214,
+    "consistency": 0.2345697485651661,
+    "recent_minutes": 342,
+    "total_minutes": 1422,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.66,
+        "minutes": 83,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.21000000000000002,
+        "minutes": 81,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.22999999999999998,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.05,
+        "minutes": 72,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.16,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.2,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.7,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.15000000000000002,
+        "minutes": 88,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.31,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.67,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.28,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.33,
+        "minutes": 84,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.76,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.19,
+        "minutes": 72,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.250460405058107
+  },
+  {
+    "player_id": 419,
+    "name": "Jack Grealish",
+    "web_name": "Grealish",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "MID",
+    "recent_xgi_per90": 0.2974137931034483,
+    "season_xgi_per90": 0.3324626865671642,
+    "trend_ratio": -0.10542203645651926,
+    "breakout_score": 0.2660598253642249,
+    "consistency": 0.2687766613760791,
+    "recent_minutes": 348,
+    "total_minutes": 1340,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.02,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.71,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.87,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.39,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.49,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.24,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 87,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.41,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.16999999999999998,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.25,
+        "minutes": 85,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.72,
+        "minutes": 83,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.24310447563951998
+  },
+  {
+    "player_id": 337,
+    "name": "Raúl Jiménez Rodríguez",
+    "web_name": "Raúl",
+    "team": "Fulham",
+    "team_id": 10,
+    "position": "FWD",
+    "recent_xgi_per90": 0.4624615384615385,
+    "season_xgi_per90": 0.41415094339622643,
+    "trend_ratio": 0.11664972840371472,
+    "breakout_score": 0.516407551320241,
+    "consistency": 0.42259940200553053,
+    "recent_minutes": 325,
+    "total_minutes": 954,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.29,
+        "minutes": 65,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.11,
+        "minutes": 31,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 6,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 10,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.06,
+        "minutes": 10,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.74,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.22,
+        "minutes": 71,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.24000000000000002,
+        "minutes": 57,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.98,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.17,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.18,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 78,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 1.31,
+        "minutes": 84,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.23913100237695478
+  },
+  {
+    "player_id": 242,
+    "name": "Kiernan Dewsbury-Hall",
+    "web_name": "Dewsbury-Hall",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "MID",
+    "recent_xgi_per90": 0.32210526315789473,
+    "season_xgi_per90": 0.3107398568019093,
+    "trend_ratio": 0.03657530924084405,
+    "breakout_score": 0.3338863627659982,
+    "consistency": 0.2428921369539637,
+    "recent_minutes": 285,
+    "total_minutes": 1257,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.24,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.17,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.6499999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.32,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.26,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.18,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.03,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.75,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.15,
+        "minutes": 82,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.48,
+        "minutes": 88,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.09,
+        "minutes": 87,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.77,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.0,
+        "minutes": 15,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.23526358894652488
+  },
+  {
+    "player_id": 256,
+    "name": "Daniel Muñoz Mejía",
+    "web_name": "Muñoz",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "DEF",
+    "recent_xgi_per90": 0.2725,
+    "season_xgi_per90": 0.2692857142857143,
+    "trend_ratio": 0.011936339522546458,
+    "breakout_score": 0.27575265251989395,
+    "consistency": 0.21399146464000732,
+    "recent_minutes": 360,
+    "total_minutes": 1260,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.32,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.48,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.33999999999999997,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.31,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.61,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.51,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.56,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.5,
+    "cs_potential_recent": 0.75,
+    "cs_trend_ratio": 0.5,
+    "fixture_cs_potential": 0.2504057438235294,
+    "consistency_score": 0.21166086987908375
+  },
+  {
+    "player_id": 8,
+    "name": "Jurriën Timber",
+    "web_name": "J.Timber",
+    "team": "Arsenal",
+    "team_id": 1,
+    "position": "DEF",
+    "recent_xgi_per90": 0.2791139240506329,
+    "season_xgi_per90": 0.29869281045751633,
+    "trend_ratio": -0.06554856937096643,
+    "breakout_score": 0.26081840563759734,
+    "consistency": 0.3100190121145728,
+    "recent_minutes": 316,
+    "total_minutes": 1377,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.8600000000000001,
+        "minutes": 63,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.32,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.05,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.74,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.2,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.54,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.32999999999999996,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 46,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.24000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.53,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.4666666666666667,
+    "cs_potential_recent": 0.3333333333333333,
+    "cs_trend_ratio": -0.28571428571428575,
+    "fixture_cs_potential": 0.41666286642156863,
+    "consistency_score": 0.20609236043375181
+  },
+  {
+    "player_id": 488,
+    "name": "Bruno Guimarães Rodriguez Moura",
+    "web_name": "Bruno G.",
+    "team": "Newcastle",
+    "team_id": 15,
+    "position": "MID",
+    "recent_xgi_per90": 0.2142857142857143,
+    "season_xgi_per90": 0.24816414686825056,
+    "trend_ratio": -0.13651622528907123,
+    "breakout_score": 0.18503223743805616,
+    "consistency": 0.22633935131912192,
+    "recent_minutes": 315,
+    "total_minutes": 1389,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.58,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.9,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.47,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.07,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.09000000000000001,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.16999999999999998,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.19199483484542743
+  },
+  {
+    "player_id": 547,
+    "name": "Enzo Le Fée",
+    "web_name": "E.Le Fée",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "MID",
+    "recent_xgi_per90": 0.27851002865329516,
+    "season_xgi_per90": 0.28074074074074074,
+    "trend_ratio": -0.00794580822704888,
+    "breakout_score": 0.2762970413763062,
+    "consistency": 0.3506861345323152,
+    "recent_minutes": 349,
+    "total_minutes": 1215,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 14,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.09,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.8200000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 80,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.15,
+        "minutes": 74,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.06,
+        "minutes": 74,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.11,
+        "minutes": 63,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.26,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 1.0,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.05,
+        "minutes": 79,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.9,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.18228885556463154
+  },
+  {
+    "player_id": 271,
+    "name": "Daichi Kamada",
+    "web_name": "Kamada",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "MID",
+    "recent_xgi_per90": 0.18932926829268293,
+    "season_xgi_per90": 0.18833619210977703,
+    "trend_ratio": 0.005272890843662443,
+    "breakout_score": 0.19032758085790072,
+    "consistency": 0.11971974883308345,
+    "recent_minutes": 328,
+    "total_minutes": 1166,
+    "xgi_history": [
+      {
+        "gameweek": 3,
+        "xGI": 0.17,
+        "minutes": 85,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.29000000000000004,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.47,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.12000000000000001,
+        "minutes": 81,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.28,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.02,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.11,
+        "minutes": 77,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.19,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.060000000000000005,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.14,
+        "minutes": 84,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.28,
+        "minutes": 88,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.2,
+        "minutes": 66,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "consistency_score": 0.16578863049421516
+  },
+  {
+    "player_id": 228,
+    "name": "Malo Gusto",
+    "web_name": "Gusto",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "DEF",
+    "recent_xgi_per90": 0.18453237410071946,
+    "season_xgi_per90": 0.17712765957446805,
+    "trend_ratio": 0.04180439432238034,
+    "breakout_score": 0.19224663823287091,
+    "consistency": 0.23568759023962021,
+    "recent_minutes": 278,
+    "total_minutes": 940,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.02,
+        "minutes": 11,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 68,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.01,
+        "minutes": 26,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.01,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.18,
+        "minutes": 86,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.1,
+        "minutes": 75,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.6799999999999999,
+        "minutes": 76,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.15,
+        "minutes": 23,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.07,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.46,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 53,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.6666666666666666,
+    "cs_potential_recent": 1.0,
+    "cs_trend_ratio": 0.5000000000000001,
+    "fixture_cs_potential": 0.06458552312091503,
+    "consistency_score": 0.13538086832457788
+  },
+  {
+    "player_id": 260,
+    "name": "Marc Guéhi",
+    "web_name": "Guéhi",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "DEF",
+    "recent_xgi_per90": 0.1875,
+    "season_xgi_per90": 0.169375,
+    "trend_ratio": 0.10701107011070111,
+    "breakout_score": 0.20756457564575648,
+    "consistency": 0.20101208763405248,
+    "recent_minutes": 360,
+    "total_minutes": 1440,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.6799999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.61,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.09999999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.32,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.23,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.375,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.3333333333333333,
+    "fixture_cs_potential": 0.2504057438235294,
+    "consistency_score": 0.13532857765698236
+  },
+  {
+    "player_id": 403,
+    "name": "Joško Gvardiol",
+    "web_name": "Gvardiol",
+    "team": "Man City",
+    "team_id": 13,
+    "position": "DEF",
+    "recent_xgi_per90": 0.1672566371681416,
+    "season_xgi_per90": 0.16515957446808513,
+    "trend_ratio": 0.012697191227395037,
+    "breakout_score": 0.16938032667431652,
+    "consistency": 0.25190741575963327,
+    "recent_minutes": 339,
+    "total_minutes": 1128,
+    "xgi_history": [
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.23,
+        "minutes": 69,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.12000000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.9400000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.19,
+        "minutes": 69,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.06999999999999999,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.36000000000000004,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.46153846153846156,
+    "cs_potential_recent": 0.75,
+    "cs_trend_ratio": 0.6249999999999999,
+    "fixture_cs_potential": 0.19790951176470595,
+    "consistency_score": 0.1235546528758691
+  }
+]
