@@ -1,0 +1,7318 @@
+[
+  {
+    "player_id": 136,
+    "name": "Igor Thiago Nascimento Rodrigues",
+    "web_name": "Thiago",
+    "team": "Brentford",
+    "team_id": 5,
+    "position": "FWD",
+    "recent_xgi_per90": 0.09300000000000003,
+    "season_xgi_per90": 0.5993576017130621,
+    "trend_ratio": -0.8448338692390138,
+    "breakout_score": 0.046500000000000014,
+    "consistency": 0.532325322458121,
+    "recent_minutes": 300,
+    "total_minutes": 1401,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.92,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.23,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.03,
+        "minutes": 71,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.11,
+        "minutes": 64,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.7,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.67,
+        "minutes": 67,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.86,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 1.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 1.22,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 1.76,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 1.18,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 30,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.29000000000000004,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.506357601713062
+  },
+  {
+    "player_id": 283,
+    "name": "Jean-Philippe Mateta",
+    "web_name": "Mateta",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "FWD",
+    "recent_xgi_per90": 0.28421052631578947,
+    "season_xgi_per90": 0.7231441048034934,
+    "trend_ratio": -0.6069794050343249,
+    "breakout_score": 0.14210526315789473,
+    "consistency": 0.8251346974104908,
+    "recent_minutes": 266,
+    "total_minutes": 1374,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.29,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.16,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 1.12,
+        "minutes": 84,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.6,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.84,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 1.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.59,
+        "minutes": 69,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 3.6999999999999997,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.15000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.12,
+        "minutes": 89,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.37,
+        "minutes": 59,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 1.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.27,
+        "minutes": 63,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.16999999999999998,
+        "minutes": 65,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.31,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.09000000000000001,
+        "minutes": 76,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.4389335784877039
+  },
+  {
+    "player_id": 299,
+    "name": "Iliman Ndiaye",
+    "web_name": "Ndiaye",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "MID",
+    "recent_xgi_per90": 0.1830945558739255,
+    "season_xgi_per90": 0.3893521965748325,
+    "trend_ratio": -0.5297456711824786,
+    "breakout_score": 0.09154727793696275,
+    "consistency": 0.3548646846954088,
+    "recent_minutes": 349,
+    "total_minutes": 1343,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.73,
+        "minutes": 63,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.6100000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.16,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.19,
+        "minutes": 80,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 1.28,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.6000000000000001,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.7300000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.25,
+        "minutes": 61,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.24000000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.08,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.09000000000000001,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.12000000000000001,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.33999999999999997,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.206257640700907
+  },
+  {
+    "player_id": 693,
+    "name": "Omari Hutchinson",
+    "web_name": "Hutchinson",
+    "team": "Nott'm Forest",
+    "team_id": 16,
+    "position": "MID",
+    "recent_xgi_per90": 0.28,
+    "season_xgi_per90": 0.46601423487544485,
+    "trend_ratio": -0.399159984726995,
+    "breakout_score": 0.16823520427644142,
+    "consistency": 0.2554516697059456,
+    "recent_minutes": 360,
+    "total_minutes": 562,
+    "xgi_history": [
+      {
+        "gameweek": 2,
+        "xGI": 0.2,
+        "minutes": 8,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 1,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.56,
+        "minutes": 18,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.03,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.39999999999999997,
+        "minutes": 31,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.44,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.15,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.78,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.16999999999999998,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.18601423487544483
+  },
+  {
+    "player_id": 411,
+    "name": "Nico O'Reilly",
+    "web_name": "O'Reilly",
+    "team": "Man City",
+    "team_id": 13,
+    "position": "DEF",
+    "recent_xgi_per90": 0.075,
+    "season_xgi_per90": 0.23622240392477517,
+    "trend_ratio": -0.6825025960539979,
+    "breakout_score": 0.0375,
+    "consistency": 0.2927809386945724,
+    "recent_minutes": 360,
+    "total_minutes": 1223,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 24,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.02,
+        "minutes": 18,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 86,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.2,
+        "minutes": 82,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.44000000000000006,
+        "minutes": 84,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.2,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.45,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.28,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 1.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.17,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.6153846153846154,
+    "cs_potential_recent": 0.75,
+    "cs_trend_ratio": 0.21874999999999994,
+    "fixture_cs_potential": 0.19790951176470595,
+    "downfall_score": 0.16122240392477516
+  },
+  {
+    "player_id": 517,
+    "name": "Elliot Anderson",
+    "web_name": "Anderson",
+    "team": "Nott'm Forest",
+    "team_id": 16,
+    "position": "MID",
+    "recent_xgi_per90": 0.065,
+    "season_xgi_per90": 0.20764705882352943,
+    "trend_ratio": -0.6869688385269122,
+    "breakout_score": 0.0325,
+    "consistency": 0.21993393157049546,
+    "recent_minutes": 360,
+    "total_minutes": 1530,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.67,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.29,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.23,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.29000000000000004,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.8400000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.16999999999999998,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.14264705882352943
+  },
+  {
+    "player_id": 7,
+    "name": "Riccardo Calafiori",
+    "web_name": "Calafiori",
+    "team": "Arsenal",
+    "team_id": 1,
+    "position": "DEF",
+    "recent_xgi_per90": 0.07548387096774194,
+    "season_xgi_per90": 0.20421974522292993,
+    "trend_ratio": -0.6303791737408037,
+    "breakout_score": 0.03774193548387097,
+    "consistency": 0.2811333481778487,
+    "recent_minutes": 310,
+    "total_minutes": 1256,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.92,
+        "minutes": 71,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.4,
+        "minutes": 63,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.01,
+        "minutes": 67,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.14,
+        "minutes": 69,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.19,
+        "minutes": 74,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.09000000000000001,
+        "minutes": 81,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.06999999999999999,
+        "minutes": 71,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.28,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.6,
+    "cs_potential_recent": 0.6666666666666666,
+    "cs_trend_ratio": 0.11111111111111109,
+    "fixture_cs_potential": 0.41666286642156863,
+    "downfall_score": 0.128735874255188
+  },
+  {
+    "player_id": 388,
+    "name": "Curtis Jones",
+    "web_name": "C.Jones",
+    "team": "Liverpool",
+    "team_id": 12,
+    "position": "MID",
+    "recent_xgi_per90": 0.0976271186440678,
+    "season_xgi_per90": 0.21724137931034485,
+    "trend_ratio": -0.5506053268765133,
+    "breakout_score": 0.0488135593220339,
+    "consistency": 0.04909035967789121,
+    "recent_minutes": 295,
+    "total_minutes": 725,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.04,
+        "minutes": 18,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.02,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.04,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.3,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.18000000000000002,
+        "minutes": 34,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.5800000000000001,
+        "minutes": 28,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.09,
+        "minutes": 69,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 16,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.14,
+        "minutes": 77,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 15,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.09,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.11961426066627703
+  },
+  {
+    "player_id": 113,
+    "name": "Sepp van den Berg",
+    "web_name": "Van den Berg",
+    "team": "Brentford",
+    "team_id": 5,
+    "position": "DEF",
+    "recent_xgi_per90": 0.01,
+    "season_xgi_per90": 0.12117647058823529,
+    "trend_ratio": -0.9174757281553398,
+    "breakout_score": 0.005,
+    "consistency": 0.225594178923158,
+    "recent_minutes": 360,
+    "total_minutes": 1530,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.66,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.78,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.09999999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.17647058823529413,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": 0.4166666666666666,
+    "fixture_cs_potential": 0.13746009578431362,
+    "downfall_score": 0.1111764705882353
+  },
+  {
+    "player_id": 416,
+    "name": "Bernardo Mota Veiga de Carvalho e Silva",
+    "web_name": "Bernardo",
+    "team": "Man City",
+    "team_id": 13,
+    "position": "MID",
+    "recent_xgi_per90": 0.037611940298507465,
+    "season_xgi_per90": 0.1414398595258999,
+    "trend_ratio": -0.7340782122905027,
+    "breakout_score": 0.018805970149253733,
+    "consistency": 0.21535354556817263,
+    "recent_minutes": 335,
+    "total_minutes": 1139,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.44,
+        "minutes": 65,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.02,
+        "minutes": 36,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 71,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.65,
+        "minutes": 87,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.0,
+        "minutes": 7,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 14,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 31,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.13,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.02,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.09,
+        "minutes": 76,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.2,
+        "minutes": 88,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.07,
+        "minutes": 81,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.05,
+        "minutes": 74,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.10382791922739244
+  },
+  {
+    "player_id": 684,
+    "name": "Malick Thiaw",
+    "web_name": "Thiaw",
+    "team": "Newcastle",
+    "team_id": 15,
+    "position": "DEF",
+    "recent_xgi_per90": 0.025,
+    "season_xgi_per90": 0.12363481228668942,
+    "trend_ratio": -0.797791580400276,
+    "breakout_score": 0.0125,
+    "consistency": 0.1763650048563276,
+    "recent_minutes": 360,
+    "total_minutes": 1172,
+    "xgi_history": [
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 9,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.02,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.59,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.27999999999999997,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.4,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.15384615384615385,
+    "cs_potential_recent": 0.0,
+    "cs_trend_ratio": -1.0,
+    "fixture_cs_potential": 0.2882211179738562,
+    "downfall_score": 0.09863481228668941
+  },
+  {
+    "player_id": 716,
+    "name": "Nicolò Savona",
+    "web_name": "Savona",
+    "team": "Nott'm Forest",
+    "team_id": 16,
+    "position": "DEF",
+    "recent_xgi_per90": 0.07081967213114755,
+    "season_xgi_per90": 0.16345733041575494,
+    "trend_ratio": -0.5667390874975311,
+    "breakout_score": 0.035409836065573776,
+    "consistency": 0.23399937530820059,
+    "recent_minutes": 305,
+    "total_minutes": 914,
+    "xgi_history": [
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 53,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 16,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.79,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.44,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.05,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 80,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.3333333333333333,
+    "cs_potential_recent": 0.6666666666666666,
+    "cs_trend_ratio": 1.0,
+    "fixture_cs_potential": 0.07292565882352942,
+    "downfall_score": 0.09263765828460739
+  },
+  {
+    "player_id": 82,
+    "name": "Antoine Semenyo",
+    "web_name": "Semenyo",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "MID",
+    "recent_xgi_per90": 0.35750000000000004,
+    "season_xgi_per90": 0.44500000000000006,
+    "trend_ratio": -0.1966292134831461,
+    "breakout_score": 0.2872050561797753,
+    "consistency": 0.29687960522743895,
+    "recent_minutes": 360,
+    "total_minutes": 1440,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.93,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.75,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.9299999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.26,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.72,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.79,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.6,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.41000000000000003,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.31,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.17,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.54,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.08750000000000002
+  },
+  {
+    "player_id": 236,
+    "name": "Pedro Lomba Neto",
+    "web_name": "Neto",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "MID",
+    "recent_xgi_per90": 0.33714285714285713,
+    "season_xgi_per90": 0.4221299093655589,
+    "trend_ratio": -0.20132914142575975,
+    "breakout_score": 0.2692661751764581,
+    "consistency": 0.3393695018346734,
+    "recent_minutes": 315,
+    "total_minutes": 1324,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.39,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.55,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.17,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.32999999999999996,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 6,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.08,
+        "minutes": 78,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.05,
+        "minutes": 74,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.9,
+        "minutes": 77,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.03,
+        "minutes": 84,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.64,
+        "minutes": 84,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 1.13,
+        "minutes": 76,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.51,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.25,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.17,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.36,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.31,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.34,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.08498705222270175
+  },
+  {
+    "player_id": 21,
+    "name": "Declan Rice",
+    "web_name": "Rice",
+    "team": "Arsenal",
+    "team_id": 1,
+    "position": "MID",
+    "recent_xgi_per90": 0.24801136363636367,
+    "season_xgi_per90": 0.33094736842105266,
+    "trend_ratio": -0.25060179562803603,
+    "breakout_score": 0.18585927057293314,
+    "consistency": 0.25906660890486716,
+    "recent_minutes": 352,
+    "total_minutes": 1425,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.14,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.54,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.12000000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.03,
+        "minutes": 22,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.2,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.44,
+        "minutes": 78,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.98,
+        "minutes": 81,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.5700000000000001,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.64,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.21000000000000002,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.08293600478468899
+  },
+  {
+    "player_id": 325,
+    "name": "Emile Smith Rowe",
+    "web_name": "Smith Rowe",
+    "team": "Fulham",
+    "team_id": 10,
+    "position": "MID",
+    "recent_xgi_per90": 0.3576923076923077,
+    "season_xgi_per90": 0.434375,
+    "trend_ratio": -0.17653569452130605,
+    "breakout_score": 0.2945468477289175,
+    "consistency": 0.2350435762699128,
+    "recent_minutes": 312,
+    "total_minutes": 576,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.09,
+        "minutes": 13,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.72,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 23,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 30,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 10,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.01,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 4,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 26,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.13,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.16,
+        "minutes": 18,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 3,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.29000000000000004,
+        "minutes": 26,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.09999999999999999,
+        "minutes": 22,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.19999999999999998,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.28,
+        "minutes": 67,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.73,
+        "minutes": 88,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.03,
+        "minutes": 84,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.07668269230769231
+  },
+  {
+    "player_id": 17,
+    "name": "Martin Ødegaard",
+    "web_name": "Ødegaard",
+    "team": "Arsenal",
+    "team_id": 1,
+    "position": "MID",
+    "recent_xgi_per90": 0.20700000000000005,
+    "season_xgi_per90": 0.28314606741573034,
+    "trend_ratio": -0.2689285714285713,
+    "breakout_score": 0.15133178571428577,
+    "consistency": 0.10851017229311753,
+    "recent_minutes": 300,
+    "total_minutes": 534,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.1,
+        "minutes": 37,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.01,
+        "minutes": 20,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 17,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.25,
+        "minutes": 8,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.21,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.04,
+        "minutes": 33,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.29000000000000004,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.13999999999999999,
+        "minutes": 33,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.16,
+        "minutes": 87,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.0761460674157303
+  },
+  {
+    "player_id": 724,
+    "name": "Lutsharel Geertruida",
+    "web_name": "Geertruida",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "DEF",
+    "recent_xgi_per90": 0.023076923076923078,
+    "season_xgi_per90": 0.09839228295819936,
+    "trend_ratio": -0.7654600301659126,
+    "breakout_score": 0.011538461538461539,
+    "consistency": 0.06971130385714797,
+    "recent_minutes": 195,
+    "total_minutes": 622,
+    "xgi_history": [
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 6,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 9,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.32,
+        "minutes": 31,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 11,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 14,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.05,
+        "minutes": 86,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.0,
+        "minutes": 4,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 11,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.16666666666666666,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 2.0000000000000004,
+    "fixture_cs_potential": 0.08896221973856222,
+    "downfall_score": 0.07531535988127629
+  },
+  {
+    "player_id": 226,
+    "name": "Trevoh Chalobah",
+    "web_name": "Chalobah",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "DEF",
+    "recent_xgi_per90": 0.0275,
+    "season_xgi_per90": 0.10239130434782608,
+    "trend_ratio": -0.7314225053078556,
+    "breakout_score": 0.01375,
+    "consistency": 0.13384537939754462,
+    "recent_minutes": 360,
+    "total_minutes": 1380,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.32,
+        "minutes": 68,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.32999999999999996,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.31999999999999995,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.0,
+        "minutes": 52,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.5333333333333333,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": -0.062499999999999986,
+    "fixture_cs_potential": 0.06458552312091503,
+    "downfall_score": 0.07489130434782608
+  },
+  {
+    "player_id": 249,
+    "name": "João Pedro Junqueira de Jesus",
+    "web_name": "João Pedro",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "FWD",
+    "recent_xgi_per90": 0.33287671232876714,
+    "season_xgi_per90": 0.4073333333333334,
+    "trend_ratio": -0.18279039526489255,
+    "breakout_score": 0.27203004650771384,
+    "consistency": 0.4609027086900617,
+    "recent_minutes": 292,
+    "total_minutes": 1350,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.30000000000000004,
+        "minutes": 72,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.52,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.68,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.16999999999999998,
+        "minutes": 78,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.25,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.02,
+        "minutes": 84,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 1.9900000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.51,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.32,
+        "minutes": 75,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.18,
+        "minutes": 54,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.42,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 32,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.08,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.5800000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.07445662100456624
+  },
+  {
+    "player_id": 371,
+    "name": "Milos Kerkez",
+    "web_name": "Kerkez",
+    "team": "Liverpool",
+    "team_id": 12,
+    "position": "DEF",
+    "recent_xgi_per90": 0.029562043795620437,
+    "season_xgi_per90": 0.10375335120643432,
+    "trend_ratio": -0.715073841453064,
+    "breakout_score": 0.014781021897810219,
+    "consistency": 0.2545396708002102,
+    "recent_minutes": 274,
+    "total_minutes": 1119,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 59,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.1,
+        "minutes": 37,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 54,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.62,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.02,
+        "minutes": 34,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.3,
+        "minutes": 67,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 84,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 4,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.2727272727272727,
+    "cs_potential_recent": 0.3333333333333333,
+    "cs_trend_ratio": 0.22222222222222224,
+    "fixture_cs_potential": 0.20700327418300635,
+    "downfall_score": 0.07419130741081388
+  },
+  {
+    "player_id": 106,
+    "name": "Nathan Collins",
+    "web_name": "Collins",
+    "team": "Brentford",
+    "team_id": 5,
+    "position": "DEF",
+    "recent_xgi_per90": 0.044055944055944055,
+    "season_xgi_per90": 0.11682692307692308,
+    "trend_ratio": -0.622895622895623,
+    "breakout_score": 0.022027972027972027,
+    "consistency": 0.18249036789650022,
+    "recent_minutes": 286,
+    "total_minutes": 1456,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.09999999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.4,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.65,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 16,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.1875,
+    "cs_potential_recent": 0.3333333333333333,
+    "cs_trend_ratio": 0.7777777777777777,
+    "fixture_cs_potential": 0.13746009578431362,
+    "downfall_score": 0.07277097902097902
+  },
+  {
+    "player_id": 261,
+    "name": "Chris Richards",
+    "web_name": "Richards",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "DEF",
+    "recent_xgi_per90": 0.0225,
+    "season_xgi_per90": 0.0940210249671485,
+    "trend_ratio": -0.7606918238993711,
+    "breakout_score": 0.01125,
+    "consistency": 0.15738765826295853,
+    "recent_minutes": 360,
+    "total_minutes": 1522,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.65,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.4117647058823529,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.39285714285714285,
+    "fixture_cs_potential": 0.2504057438235294,
+    "downfall_score": 0.07152102496714849
+  },
+  {
+    "player_id": 110,
+    "name": "Michael Kayode",
+    "web_name": "Kayode",
+    "team": "Brentford",
+    "team_id": 5,
+    "position": "DEF",
+    "recent_xgi_per90": 0.04434782608695652,
+    "season_xgi_per90": 0.11211916046039269,
+    "trend_ratio": -0.6044580970384373,
+    "breakout_score": 0.02217391304347826,
+    "consistency": 0.1870074045050736,
+    "recent_minutes": 345,
+    "total_minutes": 1477,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 84,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 82,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.81,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.26,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.04,
+        "minutes": 66,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.15000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 75,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.17647058823529413,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": 0.4166666666666666,
+    "fixture_cs_potential": 0.13746009578431362,
+    "downfall_score": 0.06777133437343617
+  },
+  {
+    "player_id": 192,
+    "name": "Quilindschy Hartman",
+    "web_name": "Hartman",
+    "team": "Burnley",
+    "team_id": 3,
+    "position": "DEF",
+    "recent_xgi_per90": 0.04750000000000001,
+    "season_xgi_per90": 0.1144353029169783,
+    "trend_ratio": -0.5849183006535947,
+    "breakout_score": 0.023750000000000004,
+    "consistency": 0.15031523526608392,
+    "recent_minutes": 360,
+    "total_minutes": 1337,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.33,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.13999999999999999,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.17,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.59,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.07,
+        "minutes": 80,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.13333333333333333,
+    "cs_potential_recent": 0.0,
+    "cs_trend_ratio": -1.0,
+    "fixture_cs_potential": 0.05198959844771234,
+    "downfall_score": 0.0669353029169783
+  },
+  {
+    "player_id": 225,
+    "name": "Reece James",
+    "web_name": "James",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "DEF",
+    "recent_xgi_per90": 0.14,
+    "season_xgi_per90": 0.20576057605760578,
+    "trend_ratio": -0.31959755030621173,
+    "breakout_score": 0.09525634295713037,
+    "consistency": 0.15044690262260532,
+    "recent_minutes": 360,
+    "total_minutes": 1111,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.19,
+        "minutes": 78,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.13,
+        "minutes": 21,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.04,
+        "minutes": 9,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.06,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.35,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.24,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.61,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 13,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.01,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.18,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.45454545454545453,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.10000000000000003,
+    "fixture_cs_potential": 0.06458552312091503,
+    "downfall_score": 0.06576057605760577
+  },
+  {
+    "player_id": 81,
+    "name": "Justin Kluivert",
+    "web_name": "Kluivert",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "MID",
+    "recent_xgi_per90": 0.14338983050847456,
+    "season_xgi_per90": 0.20906515580736543,
+    "trend_ratio": -0.3141380735841257,
+    "breakout_score": 0.09834562538098807,
+    "consistency": 0.08229234816389235,
+    "recent_minutes": 295,
+    "total_minutes": 706,
+    "xgi_history": [
+      {
+        "gameweek": 2,
+        "xGI": 0.12,
+        "minutes": 12,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 9,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.41000000000000003,
+        "minutes": 23,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.11,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.05,
+        "minutes": 59,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.23,
+        "minutes": 75,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.15,
+        "minutes": 68,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 28,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.04,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.02,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.18,
+        "minutes": 69,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.03,
+        "minutes": 73,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.18,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.08,
+        "minutes": 63,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.06567532529889086
+  },
+  {
+    "player_id": 725,
+    "name": "Piero Hincapié",
+    "web_name": "Hincapie",
+    "team": "Arsenal",
+    "team_id": 1,
+    "position": "DEF",
+    "recent_xgi_per90": 0.015,
+    "season_xgi_per90": 0.07992895204262877,
+    "trend_ratio": -0.8123333333333334,
+    "breakout_score": 0.0075,
+    "consistency": 0.15507141242509126,
+    "recent_minutes": 360,
+    "total_minutes": 563,
+    "xgi_history": [
+      {
+        "gameweek": 9,
+        "xGI": 0.0,
+        "minutes": 8,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 18,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.01,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.43,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.3333333333333333,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.5000000000000001,
+    "fixture_cs_potential": 0.41666286642156863,
+    "downfall_score": 0.06492895204262877
+  },
+  {
+    "player_id": 303,
+    "name": "James Garner",
+    "web_name": "Garner",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "MID",
+    "recent_xgi_per90": 0.10708215297450425,
+    "season_xgi_per90": 0.17078135259356533,
+    "trend_ratio": -0.37298685513198776,
+    "breakout_score": 0.0671419174957815,
+    "consistency": 0.1656807844329525,
+    "recent_minutes": 353,
+    "total_minutes": 1523,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.11000000000000001,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.39,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.33999999999999997,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.64,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.24,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.35,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.18,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.07,
+        "minutes": 83,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.06369919961906108
+  },
+  {
+    "player_id": 497,
+    "name": "Lewis Miley",
+    "web_name": "L.Miley",
+    "team": "Newcastle",
+    "team_id": 15,
+    "position": "MID",
+    "recent_xgi_per90": 0.13333333333333333,
+    "season_xgi_per90": 0.19636363636363638,
+    "trend_ratio": -0.3209876543209877,
+    "breakout_score": 0.0905349794238683,
+    "consistency": 0.23947778472125553,
+    "recent_minutes": 297,
+    "total_minutes": 660,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 7,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.03,
+        "minutes": 24,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.01,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 1,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.27,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 1,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.65,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.02,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.06303030303030305
+  },
+  {
+    "player_id": 531,
+    "name": "Daniel Ballard",
+    "web_name": "Ballard",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "DEF",
+    "recent_xgi_per90": 0.07750000000000001,
+    "season_xgi_per90": 0.1383378016085791,
+    "trend_ratio": -0.43977713178294564,
+    "breakout_score": 0.04341727228682172,
+    "consistency": 0.101394036255789,
+    "recent_minutes": 360,
+    "total_minutes": 1119,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.17,
+        "minutes": 8,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.01,
+        "minutes": 53,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.13,
+        "minutes": 15,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.17,
+        "minutes": 53,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.31000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.17,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.36363636363636365,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.37499999999999994,
+    "fixture_cs_potential": 0.08896221973856222,
+    "downfall_score": 0.06083780160857907
+  },
+  {
+    "player_id": 317,
+    "name": "Joachim Andersen",
+    "web_name": "Andersen",
+    "team": "Fulham",
+    "team_id": 10,
+    "position": "DEF",
+    "recent_xgi_per90": 0.05249999999999999,
+    "season_xgi_per90": 0.11258087706685838,
+    "trend_ratio": -0.533668582375479,
+    "breakout_score": 0.026249999999999996,
+    "consistency": 0.16969777056088078,
+    "recent_minutes": 360,
+    "total_minutes": 1391,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.64,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.22999999999999998,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.23,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 41,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.26666666666666666,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.062499999999999986,
+    "fixture_cs_potential": 0.025902588235294233,
+    "downfall_score": 0.060080877066858385
+  },
+  {
+    "player_id": 160,
+    "name": "Yankuba Minteh",
+    "web_name": "Minteh",
+    "team": "Brighton",
+    "team_id": 6,
+    "position": "MID",
+    "recent_xgi_per90": 0.2691588785046729,
+    "season_xgi_per90": 0.329146426092991,
+    "trend_ratio": -0.18225185763180765,
+    "breakout_score": 0.22010417289910225,
+    "consistency": 0.22697654341747342,
+    "recent_minutes": 321,
+    "total_minutes": 1441,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.11,
+        "minutes": 68,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.63,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.23,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.29000000000000004,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.74,
+        "minutes": 75,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.6,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.25,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.38,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.36,
+        "minutes": 87,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.32999999999999996,
+        "minutes": 88,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.13,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.31,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.07,
+        "minutes": 71,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.5700000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 70,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.05998754758831809
+  },
+  {
+    "player_id": 83,
+    "name": "Dango Ouattara",
+    "web_name": "O.Dango",
+    "team": "Brentford",
+    "team_id": 5,
+    "position": "MID",
+    "recent_xgi_per90": 0.3,
+    "season_xgi_per90": 0.3579641847313855,
+    "trend_ratio": -0.1619273301737758,
+    "breakout_score": 0.25142180094786726,
+    "consistency": 0.3760680727513016,
+    "recent_minutes": 357,
+    "total_minutes": 1061,
+    "xgi_history": [
+      {
+        "gameweek": 2,
+        "xGI": 0.79,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 17,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.12,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.6799999999999999,
+        "minutes": 74,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 22,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.53,
+        "minutes": 75,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.6900000000000001,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.06999999999999999,
+        "minutes": 74,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.01,
+        "minutes": 64,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 1.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 87,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.15000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.05796418473138554
+  },
+  {
+    "player_id": 486,
+    "name": "Anthony Elanga",
+    "web_name": "Elanga",
+    "team": "Newcastle",
+    "team_id": 15,
+    "position": "MID",
+    "recent_xgi_per90": 0.15714285714285714,
+    "season_xgi_per90": 0.21466666666666664,
+    "trend_ratio": -0.2679680567879325,
+    "breakout_score": 0.11503359107618202,
+    "consistency": 0.23743409733743195,
+    "recent_minutes": 189,
+    "total_minutes": 675,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.6299999999999999,
+        "minutes": 77,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.01,
+        "minutes": 28,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 10,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 28,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.07,
+        "minutes": 24,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 69,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.02,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.24000000000000002,
+        "minutes": 14,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.12,
+        "minutes": 13,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 13,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 5,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.1,
+        "minutes": 70,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 24,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 58,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.09,
+        "minutes": 17,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.057523809523809505
+  },
+  {
+    "player_id": 295,
+    "name": "Michael Keane",
+    "web_name": "Keane",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "DEF",
+    "recent_xgi_per90": 0.025,
+    "season_xgi_per90": 0.08210749646393212,
+    "trend_ratio": -0.6955211024978467,
+    "breakout_score": 0.0125,
+    "consistency": 0.1543115981405115,
+    "recent_minutes": 360,
+    "total_minutes": 1414,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.5900000000000001,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.23,
+        "minutes": 64,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.18,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.3125,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.2,
+    "fixture_cs_potential": 0.21740241503267976,
+    "downfall_score": 0.057107496463932116
+  },
+  {
+    "player_id": 473,
+    "name": "Lewis Hall",
+    "web_name": "Hall",
+    "team": "Newcastle",
+    "team_id": 15,
+    "position": "DEF",
+    "recent_xgi_per90": 0.10303030303030304,
+    "season_xgi_per90": 0.15986842105263158,
+    "trend_ratio": -0.35553061478987397,
+    "breakout_score": 0.06639987605195238,
+    "consistency": 0.17889129703390572,
+    "recent_minutes": 297,
+    "total_minutes": 608,
+    "xgi_history": [
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 14,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.04,
+        "minutes": 29,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.06,
+        "minutes": 13,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.06,
+        "minutes": 76,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.53,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.13,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.16666666666666666,
+    "cs_potential_recent": 0.0,
+    "cs_trend_ratio": -1.0,
+    "fixture_cs_potential": 0.2882211179738562,
+    "downfall_score": 0.056838118022328535
+  },
+  {
+    "player_id": 224,
+    "name": "Marc Cucurella Saseta",
+    "web_name": "Cucurella",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "DEF",
+    "recent_xgi_per90": 0.10499999999999998,
+    "season_xgi_per90": 0.1610724233983287,
+    "trend_ratio": -0.3481193255512323,
+    "breakout_score": 0.0684474708171206,
+    "consistency": 0.16490906218051574,
+    "recent_minutes": 360,
+    "total_minutes": 1436,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.32,
+        "minutes": 68,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.08,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.05,
+        "minutes": 63,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.62,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.33999999999999997,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.2,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.29,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.5,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.0,
+    "fixture_cs_potential": 0.06458552312091503,
+    "downfall_score": 0.056072423398328713
+  },
+  {
+    "player_id": 54,
+    "name": "John McGinn",
+    "web_name": "McGinn",
+    "team": "Aston Villa",
+    "team_id": 2,
+    "position": "MID",
+    "recent_xgi_per90": 0.14210526315789473,
+    "season_xgi_per90": 0.1968109339407745,
+    "trend_ratio": -0.27796052631578955,
+    "breakout_score": 0.10260560941828253,
+    "consistency": 0.22521464933499907,
+    "recent_minutes": 323,
+    "total_minutes": 1317,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.09,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.16999999999999998,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.12,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.74,
+        "minutes": 71,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.22999999999999998,
+        "minutes": 66,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.42000000000000004,
+        "minutes": 73,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 58,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.19,
+        "minutes": 70,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.05,
+        "minutes": 67,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.12000000000000001,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.03,
+        "minutes": 76,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.02,
+        "minutes": 74,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.33,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.13,
+        "minutes": 83,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.05470567078287977
+  },
+  {
+    "player_id": 553,
+    "name": "Chemsdine Talbi",
+    "web_name": "Talbi",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "MID",
+    "recent_xgi_per90": 0.11753731343283583,
+    "season_xgi_per90": 0.17162315550510784,
+    "trend_ratio": -0.31514303482587064,
+    "breakout_score": 0.08049624777233239,
+    "consistency": 0.11933233229907006,
+    "recent_minutes": 268,
+    "total_minutes": 881,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.24000000000000002,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.1,
+        "minutes": 64,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.37,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.12000000000000001,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.08,
+        "minutes": 84,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.27,
+        "minutes": 32,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.12,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 8,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 26,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.01,
+        "minutes": 26,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.16,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.04,
+        "minutes": 34,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.1,
+        "minutes": 82,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.05408584207227202
+  },
+  {
+    "player_id": 26,
+    "name": "Martín Zubimendi Ibáñez",
+    "web_name": "Zubimendi",
+    "team": "Arsenal",
+    "team_id": 1,
+    "position": "MID",
+    "recent_xgi_per90": 0.06605504587155964,
+    "season_xgi_per90": 0.11808510638297873,
+    "trend_ratio": -0.44061492685345893,
+    "breakout_score": 0.036950206666560514,
+    "consistency": 0.14926814903230193,
+    "recent_minutes": 327,
+    "total_minutes": 1410,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.52,
+        "minutes": 81,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.16,
+        "minutes": 60,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.02,
+        "minutes": 76,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.37,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 56,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.03,
+        "minutes": 57,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.17,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.05203006051141909
+  },
+  {
+    "player_id": 374,
+    "name": "Ibrahima Konaté",
+    "web_name": "Konaté",
+    "team": "Liverpool",
+    "team_id": 12,
+    "position": "DEF",
+    "recent_xgi_per90": 0.030000000000000002,
+    "season_xgi_per90": 0.07699859747545582,
+    "trend_ratio": -0.6103825136612022,
+    "breakout_score": 0.015000000000000001,
+    "consistency": 0.13638946521612438,
+    "recent_minutes": 360,
+    "total_minutes": 1426,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 78,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.54,
+        "minutes": 86,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.13,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 55,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.2,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.01,
+        "minutes": 54,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.3333333333333333,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.24999999999999994,
+    "fixture_cs_potential": 0.20700327418300635,
+    "downfall_score": 0.04699859747545582
+  },
+  {
+    "player_id": 258,
+    "name": "Tyrick Mitchell",
+    "web_name": "Mitchell",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "DEF",
+    "recent_xgi_per90": 0.035,
+    "season_xgi_per90": 0.07854330708661418,
+    "trend_ratio": -0.5543859649122806,
+    "breakout_score": 0.0175,
+    "consistency": 0.0945724306374654,
+    "recent_minutes": 360,
+    "total_minutes": 1524,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.38,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.22,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.0,
+        "minutes": 84,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.4117647058823529,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.39285714285714285,
+    "fixture_cs_potential": 0.2504057438235294,
+    "downfall_score": 0.04354330708661417
+  },
+  {
+    "player_id": 585,
+    "name": "Rodrigo Bentancur",
+    "web_name": "Bentancur",
+    "team": "Spurs",
+    "team_id": 18,
+    "position": "MID",
+    "recent_xgi_per90": 0.04470198675496689,
+    "season_xgi_per90": 0.08811787072243345,
+    "trend_ratio": -0.4927023725326303,
+    "breakout_score": 0.022677211823872487,
+    "consistency": 0.12042650126922856,
+    "recent_minutes": 302,
+    "total_minutes": 1052,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 19,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.31,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.09,
+        "minutes": 61,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.13,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.15000000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 59,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 11,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 65,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.14,
+        "minutes": 30,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.06,
+        "minutes": 64,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 58,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.04341588396746656
+  },
+  {
+    "player_id": 386,
+    "name": "Alexis Mac Allister",
+    "web_name": "Mac Allister",
+    "team": "Liverpool",
+    "team_id": 12,
+    "position": "MID",
+    "recent_xgi_per90": 0.14727272727272728,
+    "season_xgi_per90": 0.18791208791208794,
+    "trend_ratio": -0.21626794258373214,
+    "breakout_score": 0.11542235754675945,
+    "consistency": 0.1730672800567435,
+    "recent_minutes": 275,
+    "total_minutes": 1092,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.05,
+        "minutes": 71,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.1,
+        "minutes": 60,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.03,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.15000000000000002,
+        "minutes": 60,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.08,
+        "minutes": 64,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.05,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.11,
+        "minutes": 61,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.23,
+        "minutes": 28,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.02,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.75,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.11000000000000001,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 22,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.04063936063936066
+  },
+  {
+    "player_id": 735,
+    "name": "Bertrand Traoré",
+    "web_name": "Traoré",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "MID",
+    "recent_xgi_per90": 0.07228915662650602,
+    "season_xgi_per90": 0.10823723228995058,
+    "trend_ratio": -0.3321230125983386,
+    "breakout_score": 0.04828026414951769,
+    "consistency": 0.11523425680378285,
+    "recent_minutes": 249,
+    "total_minutes": 607,
+    "xgi_history": [
+      {
+        "gameweek": 6,
+        "xGI": 0.060000000000000005,
+        "minutes": 31,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.18,
+        "minutes": 57,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 62,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.21,
+        "minutes": 64,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.08,
+        "minutes": 81,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 63,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.03,
+        "minutes": 63,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.14,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 55,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.03,
+        "minutes": 69,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.03594807566344456
+  },
+  {
+    "player_id": 324,
+    "name": "Alex Iwobi",
+    "web_name": "Iwobi",
+    "team": "Fulham",
+    "team_id": 10,
+    "position": "MID",
+    "recent_xgi_per90": 0.16052631578947368,
+    "season_xgi_per90": 0.19300225733634313,
+    "trend_ratio": -0.16826715912588497,
+    "breakout_score": 0.13351500866663427,
+    "consistency": 0.14250366046956917,
+    "recent_minutes": 342,
+    "total_minutes": 1329,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.29000000000000004,
+        "minutes": 65,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.32,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.08,
+        "minutes": 83,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.02,
+        "minutes": 75,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.38,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.18,
+        "minutes": 64,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.22999999999999998,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.32,
+        "minutes": 88,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.11000000000000001,
+        "minutes": 88,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 86,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.4,
+        "minutes": 88,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 78,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.03247594154686945
+  },
+  {
+    "player_id": 722,
+    "name": "Florentino Ibrain Morris Luís",
+    "web_name": "Florentino",
+    "team": "Burnley",
+    "team_id": 3,
+    "position": "MID",
+    "recent_xgi_per90": 0.030111524163568774,
+    "season_xgi_per90": 0.06065411298315164,
+    "trend_ratio": -0.5035534659960639,
+    "breakout_score": 0.015055762081784387,
+    "consistency": 0.09380905147747078,
+    "recent_minutes": 269,
+    "total_minutes": 1009,
+    "xgi_history": [
+      {
+        "gameweek": 4,
+        "xGI": 0.0,
+        "minutes": 27,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.35000000000000003,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 83,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 74,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.06,
+        "minutes": 70,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 64,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 61,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.030542588819582866
+  },
+  {
+    "player_id": 257,
+    "name": "Maxence Lacroix",
+    "web_name": "Lacroix",
+    "team": "Crystal Palace",
+    "team_id": 8,
+    "position": "DEF",
+    "recent_xgi_per90": 0.02,
+    "season_xgi_per90": 0.0488235294117647,
+    "trend_ratio": -0.5903614457831325,
+    "breakout_score": 0.01,
+    "consistency": 0.060573956055792945,
+    "recent_minutes": 360,
+    "total_minutes": 1530,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.2,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.4117647058823529,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.39285714285714285,
+    "fixture_cs_potential": 0.2504057438235294,
+    "downfall_score": 0.028823529411764706
+  },
+  {
+    "player_id": 603,
+    "name": "El Hadji Malick Diouf",
+    "web_name": "Diouf",
+    "team": "West Ham",
+    "team_id": 19,
+    "position": "DEF",
+    "recent_xgi_per90": 0.051136363636363646,
+    "season_xgi_per90": 0.07851478010093728,
+    "trend_ratio": -0.3487039819684447,
+    "breakout_score": 0.033304910012977265,
+    "consistency": 0.10249714796310717,
+    "recent_minutes": 352,
+    "total_minutes": 1387,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.23,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.41,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.08,
+        "minutes": 82,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.13333333333333333,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": 0.875,
+    "fixture_cs_potential": 0.24127922733660134,
+    "downfall_score": 0.027378416464573636
+  },
+  {
+    "player_id": 74,
+    "name": "Adrien Truffert",
+    "web_name": "Truffert",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "DEF",
+    "recent_xgi_per90": 0.05,
+    "season_xgi_per90": 0.07609853528628496,
+    "trend_ratio": -0.34295713035870523,
+    "breakout_score": 0.03285214348206474,
+    "consistency": 0.07432741966239029,
+    "recent_minutes": 360,
+    "total_minutes": 1502,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.060000000000000005,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.34,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.29411764705882354,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.15000000000000002,
+    "fixture_cs_potential": 0.07630399999999993,
+    "downfall_score": 0.026098535286284964
+  },
+  {
+    "player_id": 85,
+    "name": "Tyler Adams",
+    "web_name": "Adams",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "MID",
+    "recent_xgi_per90": 0.040740740740740744,
+    "season_xgi_per90": 0.06622073578595317,
+    "trend_ratio": -0.3847736625514402,
+    "breakout_score": 0.025064776710867254,
+    "consistency": 0.10689590801111204,
+    "recent_minutes": 243,
+    "total_minutes": 1196,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.1,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.04,
+        "minutes": 87,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.06,
+        "minutes": 80,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.04,
+        "minutes": 77,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.39,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.05,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.04,
+        "minutes": 70,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.0,
+        "minutes": 4,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.025479995045212422
+  },
+  {
+    "player_id": 694,
+    "name": "Nordi Mukiele",
+    "web_name": "Mukiele",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "DEF",
+    "recent_xgi_per90": 0.09250000000000001,
+    "season_xgi_per90": 0.11666666666666667,
+    "trend_ratio": -0.20714285714285705,
+    "breakout_score": 0.07333928571428573,
+    "consistency": 0.13067346921068393,
+    "recent_minutes": 360,
+    "total_minutes": 1350,
+    "xgi_history": [
+      {
+        "gameweek": 3,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.25,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.3,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.47000000000000003,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.3333333333333333,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.5000000000000001,
+    "fixture_cs_potential": 0.08896221973856222,
+    "downfall_score": 0.024166666666666656
+  },
+  {
+    "player_id": 505,
+    "name": "Nikola Milenković",
+    "web_name": "Milenković",
+    "team": "Nott'm Forest",
+    "team_id": 16,
+    "position": "DEF",
+    "recent_xgi_per90": 0.035,
+    "season_xgi_per90": 0.05647058823529412,
+    "trend_ratio": -0.3802083333333333,
+    "breakout_score": 0.021692708333333338,
+    "consistency": 0.0834506671083608,
+    "recent_minutes": 360,
+    "total_minutes": 1530,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.33,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.17647058823529413,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 1.833333333333333,
+    "fixture_cs_potential": 0.07292565882352942,
+    "downfall_score": 0.021470588235294116
+  },
+  {
+    "player_id": 190,
+    "name": "Hjalmar Ekdal",
+    "web_name": "Ekdal",
+    "team": "Burnley",
+    "team_id": 3,
+    "position": "DEF",
+    "recent_xgi_per90": 0.02,
+    "season_xgi_per90": 0.03930571108622621,
+    "trend_ratio": -0.4911680911680912,
+    "breakout_score": 0.010176638176638178,
+    "consistency": 0.05448853090330111,
+    "recent_minutes": 360,
+    "total_minutes": 893,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 82,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.0,
+        "minutes": 1,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.1,
+    "cs_potential_recent": 0.0,
+    "cs_trend_ratio": -1.0,
+    "fixture_cs_potential": 0.05198959844771234,
+    "downfall_score": 0.019305711086226206
+  },
+  {
+    "player_id": 58,
+    "name": "Boubacar Kamara",
+    "web_name": "Kamara",
+    "team": "Aston Villa",
+    "team_id": 2,
+    "position": "MID",
+    "recent_xgi_per90": 0.05089285714285714,
+    "season_xgi_per90": 0.07000864304235091,
+    "trend_ratio": -0.27304894179894185,
+    "breakout_score": 0.03699661635487528,
+    "consistency": 0.05640853793144295,
+    "recent_minutes": 336,
+    "total_minutes": 1157,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 15,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.08,
+        "minutes": 81,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.01,
+        "minutes": 18,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.21,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.07,
+        "minutes": 80,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.12,
+        "minutes": 87,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 69,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.13,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 87,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.019115785899493767
+  },
+  {
+    "player_id": 90,
+    "name": "Alex Scott",
+    "web_name": "Scott",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "MID",
+    "recent_xgi_per90": 0.09176470588235294,
+    "season_xgi_per90": 0.11082089552238807,
+    "trend_ratio": -0.17195484254307786,
+    "breakout_score": 0.07598532033134109,
+    "consistency": 0.057340044752347205,
+    "recent_minutes": 255,
+    "total_minutes": 1072,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 73,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.08,
+        "minutes": 65,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.18,
+        "minutes": 62,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.08,
+        "minutes": 66,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.08,
+        "minutes": 62,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.03,
+        "minutes": 30,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.13999999999999999,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.08,
+        "minutes": 66,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.16,
+        "minutes": 79,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.06,
+        "minutes": 72,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.06,
+        "minutes": 62,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.04,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.07,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.08,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.13,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.0,
+        "minutes": 1,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.019056189640035123
+  },
+  {
+    "player_id": 637,
+    "name": "Toti Gomes",
+    "web_name": "Toti",
+    "team": "Wolves",
+    "team_id": 20,
+    "position": "DEF",
+    "recent_xgi_per90": 0.008083832335329342,
+    "season_xgi_per90": 0.02370916754478398,
+    "trend_ratio": -0.6590419161676646,
+    "breakout_score": 0.004041916167664671,
+    "consistency": 0.07526692439291716,
+    "recent_minutes": 334,
+    "total_minutes": 949,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 48,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.01,
+        "minutes": 71,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.0,
+        "minutes": 1,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.14,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 69,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.0,
+        "minutes": 85,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.0,
+    "cs_potential_recent": 0.0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0.05667019681372554,
+    "downfall_score": 0.01562533520945464
+  },
+  {
+    "player_id": 552,
+    "name": "Noah Sadiki",
+    "web_name": "Sadiki",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "MID",
+    "recent_xgi_per90": 0.04750733137829912,
+    "season_xgi_per90": 0.063012729844413,
+    "trend_ratio": -0.24606771527592627,
+    "breakout_score": 0.03581731088718473,
+    "consistency": 0.06636304507437792,
+    "recent_minutes": 341,
+    "total_minutes": 1414,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.19,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.03,
+        "minutes": 83,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.25,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.09,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.06,
+        "minutes": 71,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.01550539846611388
+  },
+  {
+    "player_id": 292,
+    "name": "Vitalii Mykolenko",
+    "web_name": "Mykolenko",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "DEF",
+    "recent_xgi_per90": 0.07,
+    "season_xgi_per90": 0.08533864541832671,
+    "trend_ratio": -0.17973856209150335,
+    "breakout_score": 0.057418300653594774,
+    "consistency": 0.07247800510837613,
+    "recent_minutes": 360,
+    "total_minutes": 1255,
+    "xgi_history": [
+      {
+        "gameweek": 3,
+        "xGI": 0.07,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.17,
+        "minutes": 85,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.27,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.14,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.2857142857142857,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.7500000000000001,
+    "fixture_cs_potential": 0.21740241503267976,
+    "downfall_score": 0.015338645418326703
+  },
+  {
+    "player_id": 291,
+    "name": "James Tarkowski",
+    "web_name": "Tarkowski",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "DEF",
+    "recent_xgi_per90": 0.0675,
+    "season_xgi_per90": 0.08176470588235295,
+    "trend_ratio": -0.17446043165467626,
+    "breakout_score": 0.05572392086330936,
+    "consistency": 0.07838331861230552,
+    "recent_minutes": 360,
+    "total_minutes": 1530,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.21000000000000002,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 6,
+        "xGI": 0.11,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.26,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.06,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.08,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.16,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.05,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.35294117647058826,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": 0.4166666666666666,
+    "fixture_cs_potential": 0.21740241503267976,
+    "downfall_score": 0.014264705882352941
+  },
+  {
+    "player_id": 73,
+    "name": "Adam Smith",
+    "web_name": "Smith",
+    "team": "Bournemouth",
+    "team_id": 4,
+    "position": "DEF",
+    "recent_xgi_per90": 0.006844106463878327,
+    "season_xgi_per90": 0.02079831932773109,
+    "trend_ratio": -0.670929830625648,
+    "breakout_score": 0.0034220532319391636,
+    "consistency": 0.0295044021051106,
+    "recent_minutes": 263,
+    "total_minutes": 476,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.08,
+        "minutes": 89,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.0,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.0,
+        "minutes": 9,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 4,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.01,
+        "minutes": 79,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.4,
+    "cs_potential_recent": 0.3333333333333333,
+    "cs_trend_ratio": -0.16666666666666677,
+    "fixture_cs_potential": 0.07630399999999993,
+    "downfall_score": 0.013954212863852762
+  },
+  {
+    "player_id": 304,
+    "name": "Tim Iroegbunam",
+    "web_name": "Iroegbunam",
+    "team": "Everton",
+    "team_id": 9,
+    "position": "MID",
+    "recent_xgi_per90": 0.02727272727272728,
+    "season_xgi_per90": 0.0389948006932409,
+    "trend_ratio": -0.30060606060606043,
+    "breakout_score": 0.019074380165289263,
+    "consistency": 0.03127485527403881,
+    "recent_minutes": 231,
+    "total_minutes": 577,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 70,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.08,
+        "minutes": 70,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 14,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.04,
+        "minutes": 65,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 7,
+        "xGI": 0.0,
+        "minutes": 25,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 8,
+        "xGI": 0.01,
+        "minutes": 20,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 7,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.02,
+        "minutes": 66,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 9,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.02,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.0,
+        "minutes": 6,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0,
+    "cs_potential_recent": 0,
+    "cs_trend_ratio": 0,
+    "fixture_cs_potential": 0,
+    "downfall_score": 0.01172207342051362
+  },
+  {
+    "player_id": 230,
+    "name": "Wesley Fofana",
+    "web_name": "Fofana",
+    "team": "Chelsea",
+    "team_id": 7,
+    "position": "DEF",
+    "recent_xgi_per90": 0.0325,
+    "season_xgi_per90": 0.03913043478260869,
+    "trend_ratio": -0.16944444444444434,
+    "breakout_score": 0.026993055555555562,
+    "consistency": 0.057172983130146356,
+    "recent_minutes": 360,
+    "total_minutes": 667,
+    "xgi_history": [
+      {
+        "gameweek": 2,
+        "xGI": 0.0,
+        "minutes": 21,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.01,
+        "minutes": 45,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 63,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.0,
+        "minutes": 88,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.15,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.12,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 15,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 17,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      }
+    ],
+    "cs_potential_season": 0.5714285714285714,
+    "cs_potential_recent": 0.5,
+    "cs_trend_ratio": -0.12499999999999994,
+    "fixture_cs_potential": 0.06458552312091503,
+    "downfall_score": 0.006630434782608691
+  },
+  {
+    "player_id": 541,
+    "name": "Reinildo Mandava",
+    "web_name": "Reinildo",
+    "team": "Sunderland",
+    "team_id": 17,
+    "position": "DEF",
+    "recent_xgi_per90": 0.0125,
+    "season_xgi_per90": 0.015851272015655577,
+    "trend_ratio": -0.2114197530864197,
+    "breakout_score": 0.009857253086419755,
+    "consistency": 0.018719327529067274,
+    "recent_minutes": 360,
+    "total_minutes": 1022,
+    "xgi_history": [
+      {
+        "gameweek": 1,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 2,
+        "xGI": 0.02,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 3,
+        "xGI": 0.03,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 4,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      },
+      {
+        "gameweek": 5,
+        "xGI": 0.0,
+        "minutes": 32,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 9,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 10,
+        "xGI": 0.060000000000000005,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 11,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 12,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 13,
+        "xGI": 0.04,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 14,
+        "xGI": 0.0,
+        "minutes": 90,
+        "clean_sheet": 0
+      },
+      {
+        "gameweek": 16,
+        "xGI": 0.01,
+        "minutes": 90,
+        "clean_sheet": 1
+      }
+    ],
+    "cs_potential_season": 0.2727272727272727,
+    "cs_potential_recent": 0.25,
+    "cs_trend_ratio": -0.08333333333333326,
+    "fixture_cs_potential": 0.08896221973856222,
+    "downfall_score": 0.0033512720156555764
+  }
+]
