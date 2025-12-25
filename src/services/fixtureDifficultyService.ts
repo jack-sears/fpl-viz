@@ -306,7 +306,7 @@ class FixtureDifficultyService {
     
     // Cache bootstrap data to avoid repeated API calls
     if (!this.bootstrapCache) {
-      const bootstrapUrl = 'fpl-viz/data/fpl_bootstrap.json';
+      const bootstrapUrl = '/fpl-viz/data/fpl_bootstrap.json';
       const bootstrapResponse = await axios.get<any>(bootstrapUrl);
       this.bootstrapCache = bootstrapResponse.data;
     }
