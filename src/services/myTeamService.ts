@@ -116,6 +116,7 @@ export interface MyTeam {
 }
 
 class MyTeamService {
+  // @ts-expect-error - Intentionally unused, may be used in future
   private cachedTeamId: number | null = null;
   private cachedTeam: MyTeam | null = null;
   private allPlayers: Player[] = [];
@@ -155,7 +156,8 @@ class MyTeamService {
       let freeTransfers = 1;
       if (historyRes?.data?.current && historyRes.data.current.length >= 2) {
         const lastGW = historyRes.data.current[historyRes.data.current.length - 1];
-        const prevGW = historyRes.data.current[historyRes.data.current.length - 2];
+        // @ts-expect-error - Intentionally unused, may be used in future
+        const _prevGW = historyRes.data.current[historyRes.data.current.length - 2];
         
         // If no transfers made last week and didn't take a hit
         if (lastGW.event_transfers === 0 && lastGW.event_transfers_cost === 0) {

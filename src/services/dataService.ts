@@ -8,8 +8,6 @@ import type {
   FPLBootstrapResponse,
   FPLPlayer,
   FPLTeam,
-  FPLEvent,
-  FPLPosition,
   FPLPlayerSummary,
   FPLPlayerHistory
 } from '../types/fpl';
@@ -130,7 +128,7 @@ class DataService {
     // Parse string values to numbers
     const form = parseFloat(fplPlayer.form) || 0;
     const selectedBy = parseFloat(fplPlayer.selected_by_percent) || 0;
-    const valueForm = parseFloat(fplPlayer.value_form) || 0;
+    //const _valueForm = parseFloat(fplPlayer.value_form) || 0;
     const pointsPerGame = parseFloat(fplPlayer.points_per_game) || 0;
     const ictIndex = parseFloat(fplPlayer.ict_index) || 0;
     const influence = parseFloat(fplPlayer.influence) || 0;
@@ -342,7 +340,7 @@ class DataService {
   }
 
   // Mock data generators for development
-  private getMockPlayers(): Player[] {
+  /*private getMockPlayers(): Player[] {
     const positions = ['GK', 'DEF', 'MID', 'FWD'];
     const teams = [
       'Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brighton',
@@ -363,6 +361,7 @@ class DataService {
       id: index + 1,
       name,
       team: teams[index % teams.length],
+      teamId: (index % teams.length) + 1,
       position: positions[Math.floor(Math.random() * positions.length)],
       price: Math.round((Math.random() * 10 + 4) * 10) / 10,
       totalPoints: Math.floor(Math.random() * 200 + 50),
@@ -379,9 +378,9 @@ class DataService {
       transfersOut: Math.floor(Math.random() * 300000),
       value: Math.round((Math.random() * 50 + 10) * 10) / 10,
     }));
-  }
+  }*/
 
-  private getMockPlayerStats(): PlayerStats {
+  /*private getMockPlayerStats(): PlayerStats {
     return {
       player: this.getMockPlayers()[0],
       gameweeks: Array.from({ length: 20 }, (_, i) => ({
@@ -391,9 +390,9 @@ class DataService {
         assists: Math.floor(Math.random() * 2),
       })),
     };
-  }
+  }*/
 
-  private getMockTeams(): Team[] {
+  /*private getMockTeams(): Team[] {
     const teamNames = [
       'Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brighton',
       'Chelsea', 'Crystal Palace', 'Everton', 'Fulham', 'Liverpool',
@@ -408,7 +407,7 @@ class DataService {
       strength: Math.floor(Math.random() * 5 + 1),
       players: [],
     }));
-  }
+  }*/
 }
 
 export const dataService = new DataService();

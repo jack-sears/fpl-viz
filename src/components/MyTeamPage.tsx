@@ -23,10 +23,8 @@ import {
   X,
   ArrowUpDown,
   UserMinus,
-  UserPlus,
   AlertTriangle,
   Plus,
-  Minus,
   ChevronLeft,
   ChevronRight
 } from 'lucide-react';
@@ -1124,7 +1122,7 @@ export const MyTeamPage: React.FC = () => {
     setShowTransferModal(false);
   };
 
-  const handleRemoveTransfer = (index: number) => {
+  /*const handleRemoveTransfer = (index: number) => {
     const transfer = plannedTransfers[index];
     if (!transfer) return;
     
@@ -1148,7 +1146,7 @@ export const MyTeamPage: React.FC = () => {
     setPlannedTransfers(prev => prev.filter((_, i) => i !== index));
     setConfirmError(null);
   };
-
+  */
 
   // Filter replacement options by search query
   const filteredReplacements = useMemo(() => {

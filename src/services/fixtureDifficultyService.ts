@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { Player, FPLPlayerHistory } from '../types/fpl';
+import type { FPLPlayerHistory } from '../types/fpl';
 import { dataService } from './dataService';
 
 const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
@@ -56,7 +56,7 @@ export interface FPLFixture {
 
 class FixtureDifficultyService {
   private teamStrengths: Map<number, TeamStrength> = new Map();
-  private players: Player[] = [];
+  //private _players: Player[] = [];
   private calculatingTeamStrengths: Promise<Map<number, TeamStrength>> | null = null;
   private playerHistoryCache: Map<number, FPLPlayerHistory[]> = new Map();
   private fixturesCache: any[] | null = null;
@@ -65,7 +65,8 @@ class FixtureDifficultyService {
   /**
    * Get player history with caching
    */
-  private async getPlayerHistory(playerId: number): Promise<FPLPlayerHistory[]> {
+  //@ts-expect-error - Intentionally unused, may be used in future
+  private async _getPlayerHistory(playerId: number): Promise<FPLPlayerHistory[]> {
     if (this.playerHistoryCache.has(playerId)) {
       return this.playerHistoryCache.get(playerId)!;
     }
