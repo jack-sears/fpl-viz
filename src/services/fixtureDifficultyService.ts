@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { FPLPlayerHistory } from '../types/fpl';
 import { dataService } from './dataService';
 
-const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
+//const BACKEND_API_BASE = (import.meta as any).env?.VITE_BACKEND_URL || 'http://localhost:5000';
 
 export interface TeamStrength {
   teamId: number;
@@ -306,7 +306,7 @@ class FixtureDifficultyService {
     
     // Cache bootstrap data to avoid repeated API calls
     if (!this.bootstrapCache) {
-      const bootstrapUrl = `${BACKEND_API_BASE}/api/bootstrap-static/`;
+      const bootstrapUrl = 'fpl-viz/data/fpl_bootstrap.json';
       const bootstrapResponse = await axios.get<any>(bootstrapUrl);
       this.bootstrapCache = bootstrapResponse.data;
     }
