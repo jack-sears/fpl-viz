@@ -53,7 +53,7 @@ class ConsistentService {
 
     try {
       const response = await axios.get<CachedConsistentPlayer[]>(
-        `${BACKEND_API_BASE}/api/consistent-players?limit=200`,
+        '/fpl-viz/data/consistent_players.json',
         { timeout: 10000 }
       );
 

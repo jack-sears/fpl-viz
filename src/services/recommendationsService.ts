@@ -83,7 +83,7 @@ class RecommendationsService {
 
     try {
       const response = await axios.get<{ buy: CachedBuyRec[]; sell: CachedSellRec[] }>(
-        `${BACKEND_API_BASE}/api/recommendations`,
+        '/fpl-viz/data/recommendations.json',
         { timeout: 10000 }
       );
 

@@ -57,7 +57,7 @@ class DownfallService {
 
     try {
       const response = await axios.get<CachedDownfallPlayer[]>(
-        `${BACKEND_API_BASE}/api/downfall-players?limit=200`,
+        '/fpl-viz/data/downfall_players.json',
         { timeout: 10000 }
       );
 
