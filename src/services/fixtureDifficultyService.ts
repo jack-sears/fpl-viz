@@ -116,7 +116,7 @@ class FixtureDifficultyService {
       console.log('🔄 Calculating team strengths from Understat data...');
 
       // Get data from Understat (required, no fallback)
-      const understatUrl = `${BACKEND_API_BASE}/api/understat/team-stats`;
+      const understatUrl = '/fpl-viz/data/team_strengths.json';
       const understatResponse = await axios.get<any[]>(understatUrl);
       const understatData = understatResponse.data || [];
       
@@ -127,7 +127,7 @@ class FixtureDifficultyService {
       console.log(`✅ Loaded ${understatData.length} teams from Understat`);
 
       // Get FPL teams for mapping
-      const bootstrapUrl = `${BACKEND_API_BASE}/api/bootstrap-static/`;
+      const bootstrapUrl = '/fpl-viz/data/fpl_bootstrap.json';
       const bootstrapResponse = await axios.get<any>(bootstrapUrl);
       const teams = bootstrapResponse.data.teams;
 
@@ -453,7 +453,7 @@ class FixtureDifficultyService {
     try {
       // Cache fixtures data to avoid repeated API calls
       if (!this.fixturesCache) {
-        const fixturesUrl = `${BACKEND_API_BASE}/api/fixtures/`;
+        const fixturesUrl = '/fpl-viz/data/fpl_fixtures.json';
         const fixturesResponse = await axios.get<any[]>(fixturesUrl);
         this.fixturesCache = fixturesResponse.data || [];
       }
