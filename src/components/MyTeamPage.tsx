@@ -167,7 +167,7 @@ const PitchPlayer: React.FC<PitchPlayerProps> = ({
               : 'border-white/50'
         }`}
         style={{
-          backgroundImage: `url(/fpl-viz/public/kits/${player.teamId}.PNG)`,
+          backgroundImage: `url(/fpl-viz/kits/${player.teamId}.PNG)`,
           backgroundSize: 'contain',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -278,7 +278,7 @@ const BenchPlayer: React.FC<BenchPlayerProps> = ({
         isSelected ? 'border-yellow-400' : isValidTarget ? 'border-emerald-400' : 'border-white/40'
       }`}
       style={{
-        backgroundImage: `url(/fpl-viz/public/kits/${player.teamId}.PNG)`,
+        backgroundImage: `url(/fpl-viz/kits/${player.teamId}.PNG)`,
         backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
