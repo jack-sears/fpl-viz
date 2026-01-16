@@ -822,7 +822,7 @@ export const MyTeamPage: React.FC = () => {
       return Math.max(0, baseTransfers - totalUsedTransfers);
     } else {
       // Future weeks: transfersAvailable is for next week, add (selectedGameweek - 1) for each additional week
-      baseTransfers = Math.min(5, team.info.transfersAvailable + (selectedGameweek - 1));
+      baseTransfers = Math.min(5, team.info.transfersAvailable + (selectedGameweek));
       // Subtract planned transfers for this future week
       return Math.max(0, baseTransfers - plannedTransfers.length);
     }
