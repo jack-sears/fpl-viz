@@ -1,32 +1,63 @@
 {
   "buy": [
     {
+      "player_id": 64,
+      "name": "Ollie Watkins",
+      "web_name": "Watkins",
+      "team": "Aston Villa",
+      "team_id": 2,
+      "position": "FWD",
+      "buy_score": 2.9425437219183674,
+      "breakout_score": 2.4673469387755103,
+      "trend_ratio": 1.252355889724311,
+      "recent_xgi_per90": 1.2336734693877551,
+      "fixture_ease": 1.5839892771428572,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 9,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 15,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 5,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
       "player_id": 120,
       "name": "Kevin Schade",
       "web_name": "Schade",
       "team": "Brentford",
       "team_id": 5,
       "position": "MID",
-      "buy_score": 2.5180107697163114,
-      "breakout_score": 2.0680851063829784,
-      "trend_ratio": 1.070722970039079,
-      "recent_xgi_per90": 1.0340425531914892,
-      "fixture_ease": 1.499752211111111,
+      "buy_score": 2.7796572584065498,
+      "breakout_score": 2.381366459627329,
+      "trend_ratio": 1.3836849373779698,
+      "recent_xgi_per90": 1.1906832298136645,
+      "fixture_ease": 1.327635995930736,
       "upcoming_fixtures": [
         {
-          "opponent_id": 18,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 9,
+          "opponent_id": 7,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 22
         },
         {
-          "opponent_id": 17,
+          "opponent_id": 16,
           "is_home": true,
-          "gameweek": 21
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 2,
+          "is_home": false,
+          "gameweek": 24
         }
       ],
       "reason": "trending_up"
@@ -38,150 +69,150 @@
       "team": "Man Utd",
       "team_id": 14,
       "position": "MID",
-      "buy_score": 2.054000182728701,
-      "breakout_score": 1.5651019593953677,
-      "trend_ratio": 0.5174118719899686,
-      "recent_xgi_per90": 1.0314285714285714,
-      "fixture_ease": 1.6296607444444444,
+      "buy_score": 2.6163387403500717,
+      "breakout_score": 2.193400641492929,
+      "trend_ratio": 0.7539819944598337,
+      "recent_xgi_per90": 1.2505263157894737,
+      "fixture_ease": 1.4097936628571428,
       "upcoming_fixtures": [
         {
-          "opponent_id": 20,
+          "opponent_id": 13,
           "is_home": true,
-          "gameweek": 19
+          "gameweek": 22
         },
-        {
-          "opponent_id": 11,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 3,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 450,
-      "name": "Matheus Santos Carneiro da Cunha",
-      "web_name": "Cunha",
-      "team": "Man Utd",
-      "team_id": 14,
-      "position": "MID",
-      "buy_score": 1.912326885967742,
-      "breakout_score": 1.4234286626344086,
-      "trend_ratio": 0.6895295698924729,
-      "recent_xgi_per90": 0.8425,
-      "fixture_ease": 1.6296607444444444,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 20,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 11,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 3,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 485,
-      "name": "Anthony Gordon",
-      "web_name": "Gordon",
-      "team": "Newcastle",
-      "team_id": 15,
-      "position": "MID",
-      "buy_score": 1.8607655602605075,
-      "breakout_score": 1.3487361235938409,
-      "trend_ratio": 0.38477829848594075,
-      "recent_xgi_per90": 0.973972602739726,
-      "fixture_ease": 1.7067647888888888,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 3,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 8,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 11,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 47,
-      "name": "Morgan Rogers",
-      "web_name": "Rogers",
-      "team": "Aston Villa",
-      "team_id": 2,
-      "position": "MID",
-      "buy_score": 1.7044319233333332,
-      "breakout_score": 1.315,
-      "trend_ratio": 1.3846996386630532,
-      "recent_xgi_per90": 0.6575,
-      "fixture_ease": 1.298106411111111,
-      "upcoming_fixtures": [
         {
           "opponent_id": 1,
           "is_home": false,
-          "gameweek": 19
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 10,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 86,
+      "name": "David Brooks",
+      "web_name": "Brooks",
+      "team": "Bournemouth",
+      "team_id": 4,
+      "position": "MID",
+      "buy_score": 2.5419635660427167,
+      "breakout_score": 2.0662748930037558,
+      "trend_ratio": 0.7239096573208724,
+      "recent_xgi_per90": 1.1985981308411215,
+      "fixture_ease": 1.5856289101298704,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 6,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 12,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 20,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 136,
+      "name": "Igor Thiago Nascimento Rodrigues",
+      "web_name": "Thiago",
+      "team": "Brentford",
+      "team_id": 5,
+      "position": "FWD",
+      "buy_score": 1.947582586411544,
+      "breakout_score": 1.5492917876323231,
+      "trend_ratio": 0.5030442715835972,
+      "recent_xgi_per90": 1.0307692307692307,
+      "fixture_ease": 1.327635995930736,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 7,
+          "is_home": false,
+          "gameweek": 22
         },
         {
           "opponent_id": 16,
           "is_home": true,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
-          "opponent_id": 8,
+          "opponent_id": 2,
           "is_home": false,
-          "gameweek": 21
+          "gameweek": 24
         }
       ],
       "reason": "trending_up"
     },
     {
-      "player_id": 691,
-      "name": "Dominic Calvert-Lewin",
-      "web_name": "Calvert-Lewin",
-      "team": "Leeds",
-      "team_id": 11,
-      "position": "FWD",
-      "buy_score": 1.6811509617130076,
-      "breakout_score": 1.2465368283796743,
-      "trend_ratio": 0.43846979865771823,
-      "recent_xgi_per90": 0.8665714285714287,
-      "fixture_ease": 1.4487137777777779,
+      "player_id": 81,
+      "name": "Justin Kluivert",
+      "web_name": "Kluivert",
+      "team": "Bournemouth",
+      "team_id": 4,
+      "position": "MID",
+      "buy_score": 1.9360632788936125,
+      "breakout_score": 1.4603746058546514,
+      "trend_ratio": 0.9807883793123645,
+      "recent_xgi_per90": 0.737269372693727,
+      "fixture_ease": 1.5856289101298704,
       "upcoming_fixtures": [
         {
-          "opponent_id": 12,
+          "opponent_id": 6,
           "is_home": false,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
-          "opponent_id": 14,
+          "opponent_id": 12,
           "is_home": true,
-          "gameweek": 20
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 20,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 382,
+      "name": "Florian Wirtz",
+      "web_name": "Wirtz",
+      "team": "Liverpool",
+      "team_id": 12,
+      "position": "MID",
+      "buy_score": 1.8733211822274431,
+      "breakout_score": 1.3544241365131575,
+      "trend_ratio": 0.757565789473684,
+      "recent_xgi_per90": 0.7706249999999999,
+      "fixture_ease": 1.729656819047619,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 3,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 4,
+          "is_home": false,
+          "gameweek": 23
         },
         {
           "opponent_id": 15,
-          "is_home": false,
-          "gameweek": 21
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_up"
@@ -193,150 +224,119 @@
       "team": "Liverpool",
       "team_id": 12,
       "position": "FWD",
-      "buy_score": 1.6629281853790212,
-      "breakout_score": 1.1487750520456879,
-      "trend_ratio": 0.5436808761945666,
-      "recent_xgi_per90": 0.7441791044776119,
-      "fixture_ease": 1.7138437777777777,
+      "buy_score": 1.7139347507399696,
+      "breakout_score": 1.195037705025684,
+      "trend_ratio": 0.4743971685381813,
+      "recent_xgi_per90": 0.8105263157894738,
+      "fixture_ease": 1.729656819047619,
       "upcoming_fixtures": [
         {
-          "opponent_id": 11,
+          "opponent_id": 3,
           "is_home": true,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
-          "opponent_id": 10,
+          "opponent_id": 4,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 15,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 488,
+      "name": "Bruno Guimarães Rodriguez Moura",
+      "web_name": "Bruno G.",
+      "team": "Newcastle",
+      "team_id": 15,
+      "position": "MID",
+      "buy_score": 1.6958186621626052,
+      "breakout_score": 1.2456797078768909,
+      "trend_ratio": 0.9463745435576422,
+      "recent_xgi_per90": 0.64,
+      "fixture_ease": 1.5004631809523812,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 20,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 2,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 12,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 681,
+      "name": "Benjamin Sesko",
+      "web_name": "Šeško",
+      "team": "Man Utd",
+      "team_id": 14,
+      "position": "FWD",
+      "buy_score": 1.635615817392992,
+      "breakout_score": 1.212677718535849,
+      "trend_ratio": 0.6479593944580518,
+      "recent_xgi_per90": 0.7358662613981763,
+      "fixture_ease": 1.4097936628571428,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 13,
+          "is_home": true,
+          "gameweek": 22
         },
         {
           "opponent_id": 1,
           "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 329,
-      "name": "Harry Wilson",
-      "web_name": "Wilson",
-      "team": "Fulham",
-      "team_id": 10,
-      "position": "MID",
-      "buy_score": 1.5683490610191766,
-      "breakout_score": 1.1169218643525098,
-      "trend_ratio": 0.7750716332378227,
-      "recent_xgi_per90": 0.6292263610315187,
-      "fixture_ease": 1.5047573222222224,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 8,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 12,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 7,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 20,
-      "name": "Leandro Trossard",
-      "web_name": "Trossard",
-      "team": "Arsenal",
-      "team_id": 1,
-      "position": "MID",
-      "buy_score": 1.4903214051246088,
-      "breakout_score": 0.9890587351246086,
-      "trend_ratio": 0.4225350943458878,
-      "recent_xgi_per90": 0.6952789699570815,
-      "fixture_ease": 1.6708755666666668,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 2,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 4,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 12,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 249,
-      "name": "João Pedro Junqueira de Jesus",
-      "web_name": "João Pedro",
-      "team": "Chelsea",
-      "team_id": 7,
-      "position": "FWD",
-      "buy_score": 1.4692538858900472,
-      "breakout_score": 1.0393625258900472,
-      "trend_ratio": 0.47079602720289665,
-      "recent_xgi_per90": 0.7066666666666668,
-      "fixture_ease": 1.4329712000000001,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 4,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 13,
-          "is_home": false,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
           "opponent_id": 10,
-          "is_home": false,
-          "gameweek": 21
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_up"
     },
     {
-      "player_id": 597,
-      "name": "Richarlison de Andrade",
-      "web_name": "Richarlison",
-      "team": "Spurs",
-      "team_id": 18,
-      "position": "FWD",
-      "buy_score": 1.4289866149783812,
-      "breakout_score": 0.8361616249783812,
-      "trend_ratio": 0.45329146489104105,
-      "recent_xgi_per90": 0.5753571428571429,
-      "fixture_ease": 1.9760833000000002,
+      "player_id": 54,
+      "name": "John McGinn",
+      "web_name": "McGinn",
+      "team": "Aston Villa",
+      "team_id": 2,
+      "position": "MID",
+      "buy_score": 1.5888154601856588,
+      "breakout_score": 1.1136186770428016,
+      "trend_ratio": 1.1785182670461967,
+      "recent_xgi_per90": 0.5568093385214008,
+      "fixture_ease": 1.5839892771428572,
       "upcoming_fixtures": [
         {
-          "opponent_id": 5,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 17,
+          "opponent_id": 9,
           "is_home": true,
-          "gameweek": 20
+          "gameweek": 22
         },
         {
-          "opponent_id": 4,
+          "opponent_id": 15,
           "is_home": false,
-          "gameweek": 21
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 5,
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_up"
@@ -348,274 +348,274 @@
       "team": "Man City",
       "team_id": 13,
       "position": "MID",
-      "buy_score": 1.4283340804394902,
-      "breakout_score": 0.9376051971061569,
-      "trend_ratio": 0.12859884836852217,
-      "recent_xgi_per90": 0.8307692307692308,
-      "fixture_ease": 1.6357629444444446,
+      "buy_score": 1.5713446627650463,
+      "breakout_score": 1.111558077310501,
+      "trend_ratio": 0.2095992822966505,
+      "recent_xgi_per90": 0.9189473684210526,
+      "fixture_ease": 1.5326219515151513,
       "upcoming_fixtures": [
         {
-          "opponent_id": 17,
+          "opponent_id": 14,
           "is_home": false,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
-          "opponent_id": 7,
+          "opponent_id": 20,
           "is_home": true,
-          "gameweek": 20
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 18,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "good_form"
+    },
+    {
+      "player_id": 157,
+      "name": "Mitoma Kaoru",
+      "web_name": "Mitoma",
+      "team": "Brighton",
+      "team_id": 6,
+      "position": "MID",
+      "buy_score": 1.2995843167024328,
+      "breakout_score": 0.811107832806329,
+      "trend_ratio": 0.666878437133951,
+      "recent_xgi_per90": 0.48660287081339704,
+      "fixture_ease": 1.6282549463203462,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 4,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 10,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 9,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 329,
+      "name": "Harry Wilson",
+      "web_name": "Wilson",
+      "team": "Fulham",
+      "team_id": 10,
+      "position": "MID",
+      "buy_score": 1.2967654938388478,
+      "breakout_score": 0.8358372537868998,
+      "trend_ratio": 0.49625187406296867,
+      "recent_xgi_per90": 0.5586206896551724,
+      "fixture_ease": 1.5364274668398268,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 11,
+          "is_home": false,
+          "gameweek": 22
         },
         {
           "opponent_id": 6,
           "is_home": true,
-          "gameweek": 21
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 14,
+          "is_home": false,
+          "gameweek": 24
         }
       ],
-      "reason": "good_form"
+      "reason": "trending_up"
     },
     {
-      "player_id": 717,
-      "name": "Xavi Simons",
-      "web_name": "Xavi",
-      "team": "Spurs",
-      "team_id": 18,
+      "player_id": 20,
+      "name": "Leandro Trossard",
+      "web_name": "Trossard",
+      "team": "Arsenal",
+      "team_id": 1,
       "position": "MID",
-      "buy_score": 1.3646133308071748,
-      "breakout_score": 0.7717883408071747,
-      "trend_ratio": 0.7865470852017935,
-      "recent_xgi_per90": 0.43199999999999994,
-      "fixture_ease": 1.9760833000000002,
+      "buy_score": 1.2828187935582793,
+      "breakout_score": 0.8108694006491886,
+      "trend_ratio": 0.2792721667700519,
+      "recent_xgi_per90": 0.633852140077821,
+      "fixture_ease": 1.573164643030303,
       "upcoming_fixtures": [
-        {
-          "opponent_id": 5,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 17,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 4,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 452,
-      "name": "Amad Diallo",
-      "web_name": "Amad",
-      "team": "Man Utd",
-      "team_id": 14,
-      "position": "MID",
-      "buy_score": 1.3564836858595386,
-      "breakout_score": 0.8675854625262053,
-      "trend_ratio": 0.35032756813417176,
-      "recent_xgi_per90": 0.6425,
-      "fixture_ease": 1.6296607444444444,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 20,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 11,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 3,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 337,
-      "name": "Raúl Jiménez Rodríguez",
-      "web_name": "Raúl",
-      "team": "Fulham",
-      "team_id": 10,
-      "position": "FWD",
-      "buy_score": 1.3317643105536685,
-      "breakout_score": 0.8803371138870018,
-      "trend_ratio": 0.38808341608738856,
-      "recent_xgi_per90": 0.6342105263157896,
-      "fixture_ease": 1.5047573222222224,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 8,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 12,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 7,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 64,
-      "name": "Ollie Watkins",
-      "web_name": "Watkins",
-      "team": "Aston Villa",
-      "team_id": 2,
-      "position": "FWD",
-      "buy_score": 1.3032013484105465,
-      "breakout_score": 0.9137694250772133,
-      "trend_ratio": 0.46322554996024357,
-      "recent_xgi_per90": 0.6244897959183673,
-      "fixture_ease": 1.298106411111111,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 1,
-          "is_home": false,
-          "gameweek": 19
-        },
         {
           "opponent_id": 16,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 8,
           "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 173,
-      "name": "Mats Wieffer",
-      "web_name": "Wieffer",
-      "team": "Brighton",
-      "team_id": 6,
-      "position": "MID",
-      "buy_score": 1.2765835297960884,
-      "breakout_score": 0.759069496462755,
-      "trend_ratio": 0.929837702871411,
-      "recent_xgi_per90": 0.39333333333333337,
-      "fixture_ease": 1.7250467777777778,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 19,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 3,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 13,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_up"
-    },
-    {
-      "player_id": 119,
-      "name": "Bryan Mbeumo",
-      "web_name": "Mbeumo",
-      "team": "Man Utd",
-      "team_id": 14,
-      "position": "MID",
-      "buy_score": 1.2651767621461187,
-      "breakout_score": 0.7762785388127854,
-      "trend_ratio": 0.17617960426179607,
-      "recent_xgi_per90": 0.66,
-      "fixture_ease": 1.6296607444444444,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 20,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 11,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 3,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "good_form"
-    },
-    {
-      "player_id": 660,
-      "name": "Anton Stach",
-      "web_name": "Stach",
-      "team": "Leeds",
-      "team_id": 11,
-      "position": "MID",
-      "buy_score": 1.248593198867314,
-      "breakout_score": 0.8139790655339806,
-      "trend_ratio": 0.6697006472491909,
-      "recent_xgi_per90": 0.48750000000000004,
-      "fixture_ease": 1.4487137777777779,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 12,
-          "is_home": false,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
           "opponent_id": 14,
           "is_home": true,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
-          "opponent_id": 15,
+          "opponent_id": 11,
           "is_home": false,
-          "gameweek": 21
+          "gameweek": 24
+        }
+      ],
+      "reason": "good_form"
+    },
+    {
+      "player_id": 237,
+      "name": "Enzo Fernández",
+      "web_name": "Enzo",
+      "team": "Chelsea",
+      "team_id": 7,
+      "position": "MID",
+      "buy_score": 1.2759416978276379,
+      "breakout_score": 0.7951455681912742,
+      "trend_ratio": 0.1349513665636138,
+      "recent_xgi_per90": 0.7005988023952096,
+      "fixture_ease": 1.6026537654545454,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 5,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 8,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 19,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "good_form"
+    },
+    {
+      "player_id": 515,
+      "name": "Morgan Gibbs-White",
+      "web_name": "Gibbs-White",
+      "team": "Nott'm Forest",
+      "team_id": 16,
+      "position": "MID",
+      "buy_score": 1.2405789372680753,
+      "breakout_score": 0.8126865671641792,
+      "trend_ratio": 0.47761194029850756,
+      "recent_xgi_per90": 0.55,
+      "fixture_ease": 1.4263079003463204,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 1,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 5,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 8,
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_up"
     },
     {
-      "player_id": 16,
-      "name": "Bukayo Saka",
-      "web_name": "Saka",
-      "team": "Arsenal",
-      "team_id": 1,
+      "player_id": 303,
+      "name": "James Garner",
+      "web_name": "Garner",
+      "team": "Everton",
+      "team_id": 9,
       "position": "MID",
-      "buy_score": 1.2179062216223713,
-      "breakout_score": 0.7166435516223713,
-      "trend_ratio": 0.053620430775602905,
-      "recent_xgi_per90": 0.6801724137931033,
-      "fixture_ease": 1.6708755666666668,
+      "buy_score": 1.2303334726171915,
+      "breakout_score": 0.7302885284613473,
+      "trend_ratio": 0.8488317176236639,
+      "recent_xgi_per90": 0.395,
+      "fixture_ease": 1.6668164805194805,
       "upcoming_fixtures": [
         {
           "opponent_id": 2,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 4,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 22
         },
         {
-          "opponent_id": 12,
+          "opponent_id": 11,
           "is_home": true,
-          "gameweek": 21
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 6,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 26,
+      "name": "Martín Zubimendi Ibáñez",
+      "web_name": "Zubimendi",
+      "team": "Arsenal",
+      "team_id": 1,
+      "position": "MID",
+      "buy_score": 1.2069493929090909,
+      "breakout_score": 0.7349999999999999,
+      "trend_ratio": 1.1769578313253009,
+      "recent_xgi_per90": 0.36749999999999994,
+      "fixture_ease": 1.573164643030303,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 16,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 14,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 11,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_up"
+    },
+    {
+      "player_id": 597,
+      "name": "Richarlison de Andrade",
+      "web_name": "Richarlison",
+      "team": "Spurs",
+      "team_id": 18,
+      "position": "FWD",
+      "buy_score": 1.1747879323848853,
+      "breakout_score": 0.6650490204368334,
+      "trend_ratio": 0.25150522150284016,
+      "recent_xgi_per90": 0.5313993174061433,
+      "fixture_ease": 1.6991297064935065,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 19,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 3,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 13,
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "good_form"
@@ -623,68 +623,68 @@
   ],
   "sell": [
     {
-      "player_id": 7,
-      "name": "Riccardo Calafiori",
-      "web_name": "Calafiori",
-      "team": "Arsenal",
-      "team_id": 1,
+      "player_id": 113,
+      "name": "Sepp van den Berg",
+      "web_name": "Van den Berg",
+      "team": "Brentford",
+      "team_id": 5,
       "position": "DEF",
-      "sell_score": 0.5821455475885213,
-      "downfall_score": 0.128735874255188,
-      "trend_ratio": -0.6303791737408037,
-      "recent_xgi_per90": 0.07548387096774194,
-      "season_xgi_per90": 0.20421974522292993,
-      "fixture_difficulty": 1.5113655777777777,
+      "sell_score": 0.5522787808479755,
+      "downfall_score": 0.1111764705882353,
+      "trend_ratio": -0.9174757281553398,
+      "recent_xgi_per90": 0.01,
+      "season_xgi_per90": 0.12117647058823529,
+      "fixture_difficulty": 1.470341034199134,
       "upcoming_fixtures": [
         {
-          "opponent_id": 2,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 4,
+          "opponent_id": 7,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 22
         },
         {
-          "opponent_id": 12,
+          "opponent_id": 16,
           "is_home": true,
-          "gameweek": 21
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 2,
+          "is_home": false,
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
     },
     {
-      "player_id": 224,
-      "name": "Marc Cucurella Saseta",
-      "web_name": "Cucurella",
-      "team": "Chelsea",
-      "team_id": 7,
+      "player_id": 709,
+      "name": "Ladislav Krejcí",
+      "web_name": "Krejčí",
+      "team": "Wolves",
+      "team_id": 20,
       "position": "DEF",
-      "sell_score": 0.5670359041441101,
-      "downfall_score": 0.10885292081077681,
-      "trend_ratio": -0.6942951352816298,
-      "recent_xgi_per90": 0.04792899408284024,
-      "season_xgi_per90": 0.15678191489361704,
-      "fixture_difficulty": 1.5272766111111111,
+      "sell_score": 0.5267585599189722,
+      "downfall_score": 0.06030997160728388,
+      "trend_ratio": -0.2910793768545993,
+      "recent_xgi_per90": 0.14688427299703266,
+      "season_xgi_per90": 0.20719424460431654,
+      "fixture_difficulty": 1.5548286277056278,
       "upcoming_fixtures": [
         {
-          "opponent_id": 4,
+          "opponent_id": 15,
           "is_home": true,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
           "opponent_id": 13,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
-          "opponent_id": 10,
-          "is_home": false,
-          "gameweek": 21
+          "opponent_id": 4,
+          "is_home": true,
+          "gameweek": 24
         }
       ],
-      "reason": "trending_down"
+      "reason": "declining_form"
     },
     {
       "player_id": 411,
@@ -693,123 +693,27 @@
       "team": "Man City",
       "team_id": 13,
       "position": "DEF",
-      "sell_score": 0.5424352956740289,
-      "downfall_score": 0.12394135567402895,
-      "trend_ratio": -0.5413672654690619,
-      "recent_xgi_per90": 0.10500000000000001,
-      "season_xgi_per90": 0.22894135567402896,
-      "fixture_difficulty": 1.3949798,
+      "sell_score": 0.5233949849908692,
+      "downfall_score": 0.11909524727658345,
+      "trend_ratio": -0.5628709093187229,
+      "recent_xgi_per90": 0.0924901185770751,
+      "season_xgi_per90": 0.21158536585365856,
+      "fixture_difficulty": 1.3476657923809525,
       "upcoming_fixtures": [
         {
-          "opponent_id": 17,
+          "opponent_id": 14,
           "is_home": false,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
-          "opponent_id": 7,
+          "opponent_id": 20,
           "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 6,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 226,
-      "name": "Trevoh Chalobah",
-      "web_name": "Chalobah",
-      "team": "Chelsea",
-      "team_id": 7,
-      "position": "DEF",
-      "sell_score": 0.5349176772108843,
-      "downfall_score": 0.07673469387755101,
-      "trend_ratio": -0.7932489451476793,
-      "recent_xgi_per90": 0.02,
-      "season_xgi_per90": 0.09673469387755101,
-      "fixture_difficulty": 1.5272766111111111,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 4,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 13,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 10,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 531,
-      "name": "Daniel Ballard",
-      "web_name": "Ballard",
-      "team": "Sunderland",
-      "team_id": 17,
-      "position": "DEF",
-      "sell_score": 0.4963785262752457,
-      "downfall_score": 0.06083780160857907,
-      "trend_ratio": -0.43977713178294564,
-      "recent_xgi_per90": 0.07750000000000001,
-      "season_xgi_per90": 0.1383378016085791,
-      "fixture_difficulty": 1.4518024155555556,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 13,
-          "is_home": true,
-          "gameweek": 19
+          "gameweek": 23
         },
         {
           "opponent_id": 18,
           "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 5,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 575,
-      "name": "Micky van de Ven",
-      "web_name": "Van de Ven",
-      "team": "Spurs",
-      "team_id": 18,
-      "position": "DEF",
-      "sell_score": 0.49036123425938116,
-      "downfall_score": 0.11008887425938119,
-      "trend_ratio": -0.8149366471734893,
-      "recent_xgi_per90": 0.025,
-      "season_xgi_per90": 0.13508887425938118,
-      "fixture_difficulty": 1.2675745333333333,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 5,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 17,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 4,
-          "is_home": false,
-          "gameweek": 21
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
@@ -821,315 +725,155 @@
       "team": "Liverpool",
       "team_id": 12,
       "position": "DEF",
-      "sell_score": 0.48892005791563276,
-      "downfall_score": 0.06299627791563275,
-      "trend_ratio": -0.6268518518518518,
-      "recent_xgi_per90": 0.0375,
-      "season_xgi_per90": 0.10049627791563276,
-      "fixture_difficulty": 1.4197459333333333,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 11,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 10,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 1,
-          "is_home": false,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 113,
-      "name": "Sepp van den Berg",
-      "web_name": "Van den Berg",
-      "team": "Brentford",
-      "team_id": 5,
-      "position": "DEF",
-      "sell_score": 0.4684011512549019,
-      "downfall_score": 0.1111764705882353,
-      "trend_ratio": -0.9174757281553398,
-      "recent_xgi_per90": 0.01,
-      "season_xgi_per90": 0.12117647058823529,
-      "fixture_difficulty": 1.1907489355555554,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 18,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 9,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 17,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 684,
-      "name": "Malick Thiaw",
-      "web_name": "Thiaw",
-      "team": "Newcastle",
-      "team_id": 15,
-      "position": "DEF",
-      "sell_score": 0.4670957748917063,
-      "downfall_score": 0.09588351822503963,
-      "trend_ratio": -0.8099397590361447,
-      "recent_xgi_per90": 0.0225,
-      "season_xgi_per90": 0.11838351822503962,
-      "fixture_difficulty": 1.237374188888889,
+      "sell_score": 0.5167502985335901,
+      "downfall_score": 0.05792278694917456,
+      "trend_ratio": -0.6542357950374393,
+      "recent_xgi_per90": 0.030612244897959186,
+      "season_xgi_per90": 0.08853503184713375,
+      "fixture_difficulty": 1.5294250386147188,
       "upcoming_fixtures": [
         {
           "opponent_id": 3,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 4,
           "is_home": false,
-          "gameweek": 19
+          "gameweek": 23
         },
         {
-          "opponent_id": 8,
+          "opponent_id": 15,
           "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 11,
-          "is_home": true,
-          "gameweek": 21
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
     },
     {
-      "player_id": 261,
-      "name": "Chris Richards",
-      "web_name": "Richards",
-      "team": "Crystal Palace",
-      "team_id": 8,
+      "player_id": 151,
+      "name": "Jan Paul van Hecke",
+      "web_name": "Van Hecke",
+      "team": "Brighton",
+      "team_id": 6,
       "position": "DEF",
-      "sell_score": 0.44189823496714853,
-      "downfall_score": 0.07152102496714849,
-      "trend_ratio": -0.7606918238993711,
-      "recent_xgi_per90": 0.0225,
-      "season_xgi_per90": 0.0940210249671485,
-      "fixture_difficulty": 1.2345907,
+      "sell_score": 0.5129679858961038,
+      "downfall_score": 0.0885,
+      "trend_ratio": -0.7023809523809523,
+      "recent_xgi_per90": 0.0375,
+      "season_xgi_per90": 0.126,
+      "fixture_difficulty": 1.4148932863203463,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 4,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 10,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 9,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 108,
+      "name": "Kristoffer Ajer",
+      "web_name": "Ajer",
+      "team": "Brentford",
+      "team_id": 5,
+      "position": "DEF",
+      "sell_score": 0.49297409192812336,
+      "downfall_score": 0.05187178166838311,
+      "trend_ratio": -0.47427024482109226,
+      "recent_xgi_per90": 0.0575,
+      "season_xgi_per90": 0.10937178166838311,
+      "fixture_difficulty": 1.470341034199134,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 7,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 16,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 2,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 347,
+      "name": "Gabriel Gudmundsson",
+      "web_name": "Gudmundsson",
+      "team": "Leeds",
+      "team_id": 11,
+      "position": "DEF",
+      "sell_score": 0.49208167661979396,
+      "downfall_score": 0.05931034482758621,
+      "trend_ratio": -0.4109916367980884,
+      "recent_xgi_per90": 0.08499999999999999,
+      "season_xgi_per90": 0.1443103448275862,
+      "fixture_difficulty": 1.442571105974026,
       "upcoming_fixtures": [
         {
           "opponent_id": 10,
           "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 15,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 2,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 106,
-      "name": "Nathan Collins",
-      "web_name": "Collins",
-      "team": "Brentford",
-      "team_id": 5,
-      "position": "DEF",
-      "sell_score": 0.4322505538878827,
-      "downfall_score": 0.07502587322121604,
-      "trend_ratio": -0.6818930041152264,
-      "recent_xgi_per90": 0.035,
-      "season_xgi_per90": 0.11002587322121604,
-      "fixture_difficulty": 1.1907489355555554,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 18,
-          "is_home": true,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
           "opponent_id": 9,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
-          "opponent_id": 17,
+          "opponent_id": 1,
           "is_home": true,
-          "gameweek": 21
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
     },
     {
-      "player_id": 110,
-      "name": "Michael Kayode",
-      "web_name": "Kayode",
-      "team": "Brentford",
-      "team_id": 5,
+      "player_id": 228,
+      "name": "Malo Gusto",
+      "web_name": "Gusto",
+      "team": "Chelsea",
+      "team_id": 7,
       "position": "DEF",
-      "sell_score": 0.42753127593316864,
-      "downfall_score": 0.07030659526650204,
-      "trend_ratio": -0.658126850553218,
-      "recent_xgi_per90": 0.036521739130434785,
-      "season_xgi_per90": 0.10682833439693683,
-      "fixture_difficulty": 1.1907489355555554,
+      "sell_score": 0.48352053351047575,
+      "downfall_score": 0.0839888443935927,
+      "trend_ratio": -0.5508653440270157,
+      "recent_xgi_per90": 0.06847826086956521,
+      "season_xgi_per90": 0.1524671052631579,
+      "fixture_difficulty": 1.3317722970562769,
       "upcoming_fixtures": [
-        {
-          "opponent_id": 18,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 9,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 17,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 295,
-      "name": "Michael Keane",
-      "web_name": "Keane",
-      "team": "Everton",
-      "team_id": 9,
-      "position": "DEF",
-      "sell_score": 0.42457237893617017,
-      "downfall_score": 0.06469414893617022,
-      "trend_ratio": -0.8380706287683032,
-      "recent_xgi_per90": 0.0125,
-      "season_xgi_per90": 0.07719414893617021,
-      "fixture_difficulty": 1.1995940999999999,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 16,
-          "is_home": false,
-          "gameweek": 19
-        },
         {
           "opponent_id": 5,
           "is_home": true,
-          "gameweek": 20
+          "gameweek": 22
         },
         {
-          "opponent_id": 20,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 283,
-      "name": "Jean-Philippe Mateta",
-      "web_name": "Mateta",
-      "team": "Crystal Palace",
-      "team_id": 8,
-      "position": "FWD",
-      "sell_score": -0.0365544642147374,
-      "downfall_score": 0.3832142057852626,
-      "trend_ratio": -0.5406433432298589,
-      "recent_xgi_per90": 0.3255972696245734,
-      "season_xgi_per90": 0.708811475409836,
-      "fixture_difficulty": -1.3992289,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 10,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 15,
+          "opponent_id": 8,
           "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 2,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 136,
-      "name": "Igor Thiago Nascimento Rodrigues",
-      "web_name": "Thiago",
-      "team": "Brentford",
-      "team_id": 5,
-      "position": "FWD",
-      "sell_score": -0.04579085448021458,
-      "downfall_score": 0.4041348088531187,
-      "trend_ratio": -0.6859801912568305,
-      "recent_xgi_per90": 0.18500000000000003,
-      "season_xgi_per90": 0.5891348088531188,
-      "fixture_difficulty": -1.499752211111111,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 18,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 9,
-          "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 17,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "trending_down"
-    },
-    {
-      "player_id": 693,
-      "name": "Omari Hutchinson",
-      "web_name": "Hutchinson",
-      "team": "Nott'm Forest",
-      "team_id": 16,
-      "position": "MID",
-      "sell_score": -0.16785563923517377,
-      "downfall_score": 0.2763803680981596,
-      "trend_ratio": -0.6123003737682637,
-      "recent_xgi_per90": 0.175,
-      "season_xgi_per90": 0.45138036809815957,
-      "fixture_difficulty": -1.4807866911111112,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 9,
-          "is_home": true,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 2,
-          "is_home": false,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
           "opponent_id": 19,
-          "is_home": false,
-          "gameweek": 21
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
@@ -1141,59 +885,251 @@
       "team": "Man City",
       "team_id": 13,
       "position": "FWD",
-      "sell_score": -0.21986212618089013,
-      "downfall_score": 0.27086675715244324,
-      "trend_ratio": -0.26859958283853547,
-      "recent_xgi_per90": 0.7375739644970414,
-      "season_xgi_per90": 1.0084407216494846,
-      "fixture_difficulty": -1.6357629444444446,
+      "sell_score": -0.14019822101985818,
+      "downfall_score": 0.3195883644346872,
+      "trend_ratio": -0.3279213831165174,
+      "recent_xgi_per90": 0.655,
+      "season_xgi_per90": 0.9745883644346872,
+      "fixture_difficulty": -1.5326219515151513,
       "upcoming_fixtures": [
         {
-          "opponent_id": 17,
+          "opponent_id": 14,
           "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 7,
-          "is_home": true,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 6,
-          "is_home": true,
-          "gameweek": 21
-        }
-      ],
-      "reason": "declining_form"
-    },
-    {
-      "player_id": 299,
-      "name": "Iliman Ndiaye",
-      "web_name": "Ndiaye",
-      "team": "Everton",
-      "team_id": 9,
-      "position": "MID",
-      "sell_score": -0.2608305159657597,
-      "downfall_score": 0.206257640700907,
-      "trend_ratio": -0.5297456711824786,
-      "recent_xgi_per90": 0.1830945558739255,
-      "season_xgi_per90": 0.3893521965748325,
-      "fixture_difficulty": -1.5569605222222223,
-      "upcoming_fixtures": [
-        {
-          "opponent_id": 16,
-          "is_home": false,
-          "gameweek": 19
-        },
-        {
-          "opponent_id": 5,
-          "is_home": true,
-          "gameweek": 20
+          "gameweek": 22
         },
         {
           "opponent_id": 20,
           "is_home": true,
-          "gameweek": 21
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 18,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 485,
+      "name": "Anthony Gordon",
+      "web_name": "Gordon",
+      "team": "Newcastle",
+      "team_id": 15,
+      "position": "MID",
+      "sell_score": -0.18968010315162204,
+      "downfall_score": 0.2604588511340923,
+      "trend_ratio": -0.4245364533903707,
+      "recent_xgi_per90": 0.3530546623794212,
+      "season_xgi_per90": 0.6135135135135135,
+      "fixture_difficulty": -1.5004631809523812,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 20,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 2,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 12,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 283,
+      "name": "Jean-Philippe Mateta",
+      "web_name": "Mateta",
+      "team": "Crystal Palace",
+      "team_id": 8,
+      "position": "FWD",
+      "sell_score": -0.1913176323302651,
+      "downfall_score": 0.3454393713060985,
+      "trend_ratio": -0.5451652183539047,
+      "recent_xgi_per90": 0.2882022471910113,
+      "season_xgi_per90": 0.6336416184971098,
+      "fixture_difficulty": -1.789190012121212,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 17,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 7,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 16,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 450,
+      "name": "Matheus Santos Carneiro da Cunha",
+      "web_name": "Cunha",
+      "team": "Man Utd",
+      "team_id": 14,
+      "position": "MID",
+      "sell_score": -0.19334626212244901,
+      "downfall_score": 0.22959183673469383,
+      "trend_ratio": -0.510204081632653,
+      "recent_xgi_per90": 0.22040816326530616,
+      "season_xgi_per90": 0.45,
+      "fixture_difficulty": -1.4097936628571428,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 13,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 1,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 10,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 666,
+      "name": "Viktor Gyökeres",
+      "web_name": "Gyökeres",
+      "team": "Arsenal",
+      "team_id": 1,
+      "position": "FWD",
+      "sell_score": -0.27163029758821183,
+      "downfall_score": 0.20031909532087905,
+      "trend_ratio": -0.40126078301260776,
+      "recent_xgi_per90": 0.29890510948905114,
+      "season_xgi_per90": 0.4992242048099302,
+      "fixture_difficulty": -1.573164643030303,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 16,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 14,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 11,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 200,
+      "name": "Jaidon Anthony",
+      "web_name": "Anthony",
+      "team": "Burnley",
+      "team_id": 3,
+      "position": "MID",
+      "sell_score": -0.27672514038260976,
+      "downfall_score": 0.2132830321108967,
+      "trend_ratio": -0.7640809655519236,
+      "recent_xgi_per90": 0.06585365853658537,
+      "season_xgi_per90": 0.27913669064748203,
+      "fixture_difficulty": -1.6333605749783549,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 12,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 18,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 17,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 516,
+      "name": "Callum Hudson-Odoi",
+      "web_name": "Hudson-Odoi",
+      "team": "Nott'm Forest",
+      "team_id": 16,
+      "position": "MID",
+      "sell_score": -0.2835945167944149,
+      "downfall_score": 0.1442978533094812,
+      "trend_ratio": -0.5399096385542168,
+      "recent_xgi_per90": 0.12296511627906978,
+      "season_xgi_per90": 0.26726296958855095,
+      "fixture_difficulty": -1.4263079003463204,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 1,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 5,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 8,
+          "is_home": true,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 526,
+      "name": "Igor Jesus Maciel da Cruz",
+      "web_name": "Igor Jesus",
+      "team": "Nott'm Forest",
+      "team_id": 16,
+      "position": "FWD",
+      "sell_score": -0.28502164535315866,
+      "downfall_score": 0.14287072475073745,
+      "trend_ratio": -0.43721884441791936,
+      "recent_xgi_per90": 0.18390092879256967,
+      "season_xgi_per90": 0.3267716535433071,
+      "fixture_difficulty": -1.4263079003463204,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 1,
+          "is_home": true,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 5,
+          "is_home": false,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 8,
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
@@ -1205,62 +1141,126 @@
       "team": "Nott'm Forest",
       "team_id": 16,
       "position": "MID",
-      "sell_score": -0.285902674,
-      "downfall_score": 0.15833333333333333,
-      "trend_ratio": -0.7983193277310924,
-      "recent_xgi_per90": 0.04,
-      "season_xgi_per90": 0.19833333333333333,
-      "fixture_difficulty": -1.4807866911111112,
+      "sell_score": -0.302297132008658,
+      "downfall_score": 0.1255952380952381,
+      "trend_ratio": -0.7052139037433155,
+      "recent_xgi_per90": 0.052500000000000005,
+      "season_xgi_per90": 0.17809523809523808,
+      "fixture_difficulty": -1.4263079003463204,
       "upcoming_fixtures": [
         {
-          "opponent_id": 9,
+          "opponent_id": 1,
           "is_home": true,
-          "gameweek": 19
+          "gameweek": 22
         },
         {
-          "opponent_id": 2,
+          "opponent_id": 5,
           "is_home": false,
-          "gameweek": 20
+          "gameweek": 23
         },
         {
-          "opponent_id": 19,
-          "is_home": false,
-          "gameweek": 21
+          "opponent_id": 8,
+          "is_home": true,
+          "gameweek": 24
         }
       ],
       "reason": "trending_down"
     },
     {
-      "player_id": 236,
-      "name": "Pedro Lomba Neto",
-      "web_name": "Neto",
-      "team": "Chelsea",
-      "team_id": 7,
+      "player_id": 419,
+      "name": "Jack Grealish",
+      "web_name": "Grealish",
+      "team": "Everton",
+      "team_id": 9,
       "position": "MID",
-      "sell_score": -0.32439984656294196,
-      "downfall_score": 0.10549151343705804,
-      "trend_ratio": -0.25856300918703423,
-      "recent_xgi_per90": 0.3025,
-      "season_xgi_per90": 0.40799151343705803,
-      "fixture_difficulty": -1.4329712000000001,
+      "sell_score": -0.31024309930218785,
+      "downfall_score": 0.18980184485365625,
+      "trend_ratio": -0.6081414124245772,
+      "recent_xgi_per90": 0.12229965156794426,
+      "season_xgi_per90": 0.3121014964216005,
+      "fixture_difficulty": -1.6668164805194805,
       "upcoming_fixtures": [
         {
-          "opponent_id": 4,
+          "opponent_id": 2,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 11,
           "is_home": true,
-          "gameweek": 19
+          "gameweek": 23
         },
         {
-          "opponent_id": 13,
+          "opponent_id": 6,
           "is_home": false,
-          "gameweek": 20
-        },
-        {
-          "opponent_id": 10,
-          "is_home": false,
-          "gameweek": 21
+          "gameweek": 24
         }
       ],
-      "reason": "declining_form"
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 84,
+      "name": "Marcus Tavernier",
+      "web_name": "Tavernier",
+      "team": "Bournemouth",
+      "team_id": 4,
+      "position": "MID",
+      "sell_score": -0.3163532678273905,
+      "downfall_score": 0.15933540521157066,
+      "trend_ratio": -0.4702520593371316,
+      "recent_xgi_per90": 0.1794943820224719,
+      "season_xgi_per90": 0.33882978723404256,
+      "fixture_difficulty": -1.5856289101298704,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 6,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 12,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 20,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
+    },
+    {
+      "player_id": 276,
+      "name": "Justin Devenny",
+      "web_name": "Devenny",
+      "team": "Crystal Palace",
+      "team_id": 8,
+      "position": "MID",
+      "sell_score": -0.3195206954580363,
+      "downfall_score": 0.2172363081783273,
+      "trend_ratio": -0.4447287871945406,
+      "recent_xgi_per90": 0.27123287671232876,
+      "season_xgi_per90": 0.48846918489065605,
+      "fixture_difficulty": -1.789190012121212,
+      "upcoming_fixtures": [
+        {
+          "opponent_id": 17,
+          "is_home": false,
+          "gameweek": 22
+        },
+        {
+          "opponent_id": 7,
+          "is_home": true,
+          "gameweek": 23
+        },
+        {
+          "opponent_id": 16,
+          "is_home": false,
+          "gameweek": 24
+        }
+      ],
+      "reason": "trending_down"
     }
   ]
 }

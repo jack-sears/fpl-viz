@@ -1,15 +1,15 @@
 {
-  "last_sync": "2025-12-24T13:34:14.535904",
+  "last_sync": "2026-01-11T13:07:01.840678",
   "sync_type": "full",
-  "fpl_players": 770,
+  "fpl_players": 795,
   "fpl_teams": 20,
   "fixtures": 380,
-  "understat_matches": 170,
+  "understat_matches": 210,
   "team_strengths": 20,
   "player_histories": 200,
-  "breakout_players": 184,
-  "downfall_players": 65,
-  "consistent_players": 17,
+  "breakout_players": 193,
+  "downfall_players": 61,
+  "consistent_players": 18,
   "buy_recommendations": 20,
   "sell_recommendations": 20
 }

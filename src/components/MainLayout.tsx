@@ -26,39 +26,40 @@ export const MainLayout: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Tab Navigation */}
       <div className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">FPL Analytics</h1>
-              <p className="text-gray-600 mt-1 text-sm">Data-driven Fantasy Premier League insights</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            {/* Title and Description */}
+            <div className="flex items-center gap-3 flex-shrink-0">
+              <h1 className="text-xl font-bold text-gray-900">FPLytics</h1>
+              <p className="text-gray-600 text-sm hidden sm:block">Data-driven Fantasy Premier League insights</p>
             </div>
-          </div>
-          
-          {/* Tabs */}
-          <div className="mt-6 flex gap-1 border-b border-gray-200 overflow-x-auto">
-            {tabs.map(tab => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-3 font-semibold text-sm transition-colors relative whitespace-nowrap ${
-                  activeTab === tab.id
-                    ? tab.color || 'text-primary-600'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                {tab.label}
-                {activeTab === tab.id && (
-                  <div className={`absolute bottom-0 left-0 right-0 h-0.5 ${
-                    tab.id === 'myteam' ? 'bg-primary-600' :
-                    tab.id === 'breakout' ? 'bg-orange-500' :
-                    tab.id === 'downfall' ? 'bg-red-500' :
-                    tab.id === 'consistent' ? 'bg-violet-500' :
-                    tab.id === 'transfers' ? 'bg-emerald-500' :
-                    'bg-primary-600'
-                  }`}></div>
-                )}
-              </button>
-            ))}
+            
+            {/* Tabs */}
+            <div className="flex gap-1 border-b border-gray-200 overflow-x-auto flex-1 min-w-0">
+              {tabs.map(tab => (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`px-3 py-2 font-semibold text-sm transition-colors relative whitespace-nowrap ${
+                    activeTab === tab.id
+                      ? tab.color || 'text-primary-600'
+                      : 'text-gray-600 hover:text-gray-900'
+                  }`}
+                >
+                  {tab.label}
+                  {activeTab === tab.id && (
+                    <div className={`absolute bottom-0 left-0 right-0 h-0.5 ${
+                      tab.id === 'myteam' ? 'bg-primary-600' :
+                      tab.id === 'breakout' ? 'bg-orange-500' :
+                      tab.id === 'downfall' ? 'bg-red-500' :
+                      tab.id === 'consistent' ? 'bg-violet-500' :
+                      tab.id === 'transfers' ? 'bg-emerald-500' :
+                      'bg-primary-600'
+                    }`}></div>
+                  )}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>

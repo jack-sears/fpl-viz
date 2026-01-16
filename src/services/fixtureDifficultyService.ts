@@ -41,6 +41,24 @@ export interface FixtureDifficulty {
   defenseDifficultyRaw: number; // 0-100 scale
 }
 
+export interface DifficultyWeightings {
+  // xG vs GF weightings
+  alpha: number; // Weight for xG vs GF (0-1, default 0.7)
+  beta: number;  // Weight for xGA vs GA (0-1, default 0.7)
+  
+  // Attack difficulty component weights (should sum to 1.0)
+  attackDefenseRating: number;    // Opponent's defense rating weight (default 0.70)
+  attackAttackRating: number;      // Opponent's attack rating weight (default 0.20)
+  attackHomeAwayFactor: number;    // Home/away factor weight (default 0.05)
+  attackFormFactor: number;        // Form factor weight (default 0.05)
+  
+  // Defense difficulty component weights (should sum to 1.0)
+  defenseAttackRating: number;     // Opponent's attack rating weight (default 0.70)
+  defenseDefenseRating: number;    // Opponent's defense rating weight (default 0.20)
+  defenseHomeAwayFactor: number;   // Home/away factor weight (default 0.05)
+  defenseFormFactor: number;       // Form factor weight (default 0.05)
+}
+
 export interface FPLFixture {
   id: number;
   event: number; // gameweek
@@ -300,7 +318,8 @@ class FixtureDifficultyService {
    */
   async calculateFixtureDifficulty(
     _teamId: number, // Not used but kept for API consistency
-    upcomingFixtures: Array<{ gameweek: number; opponentTeamId: number; isHome: boolean }>
+    upcomingFixtures: Array<{ gameweek: number; opponentTeamId: number; isHome: boolean }>,
+    weightings?: Partial<DifficultyWeightings>
   ): Promise<FixtureDifficulty[]> {
     const teamStrengths = await this.calculateTeamStrengths();
     
@@ -312,10 +331,56 @@ class FixtureDifficultyService {
     }
     const teams = this.bootstrapCache.teams;
 
+    // Default weightings
+    const defaultWeightings: DifficultyWeightings = {
+      alpha: 0.7,
+      beta: 0.7,
+      attackDefenseRating: 0.70,
+      attackAttackRating: 0.20,
+      attackHomeAwayFactor: 0.05,
+      attackFormFactor: 0.05,
+      defenseAttackRating: 0.70,
+      defenseDefenseRating: 0.20,
+      defenseHomeAwayFactor: 0.05,
+      defenseFormFactor: 0.05,
+    };
+
+    // Merge with provided weightings
+    const w: DifficultyWeightings = { ...defaultWeightings, ...weightings };
+    
+    // Normalize weights to sum to 1.0
+    const attackSum = w.attackDefenseRating + w.attackAttackRating + w.attackHomeAwayFactor + w.attackFormFactor;
+    const defenseSum = w.defenseAttackRating + w.defenseDefenseRating + w.defenseHomeAwayFactor + w.defenseFormFactor;
+    
+    // Prevent division by zero - if sum is 0, use equal weights
+    const normalizedAttack = attackSum > 0 ? {
+      defenseRating: w.attackDefenseRating / attackSum,
+      attackRating: w.attackAttackRating / attackSum,
+      homeAwayFactor: w.attackHomeAwayFactor / attackSum,
+      formFactor: w.attackFormFactor / attackSum,
+    } : {
+      defenseRating: 0.25,
+      attackRating: 0.25,
+      homeAwayFactor: 0.25,
+      formFactor: 0.25,
+    };
+    
+    const normalizedDefense = defenseSum > 0 ? {
+      attackRating: w.defenseAttackRating / defenseSum,
+      defenseRating: w.defenseDefenseRating / defenseSum,
+      homeAwayFactor: w.defenseHomeAwayFactor / defenseSum,
+      formFactor: w.defenseFormFactor / defenseSum,
+    } : {
+      attackRating: 0.25,
+      defenseRating: 0.25,
+      homeAwayFactor: 0.25,
+      formFactor: 0.25,
+    };
+
     // New FDR calculation method:
-    // 1. Pre-calculate combined Attack/Defense Ratings for all teams (α=0.7 for xG, β=0.7 for xGA)
-    const ALPHA = 0.7; // Weight for xG vs GF
-    const BETA = 0.7;  // Weight for xGA vs GA
+    // 1. Pre-calculate combined Attack/Defense Ratings for all teams
+    const ALPHA = w.alpha; // Weight for xG vs GF
+    const BETA = w.beta;   // Weight for xGA vs GA
     
     // Pre-calculate all combined ratings for home and away scenarios
     const allHomeAttackRatings: number[] = [];
@@ -410,22 +475,20 @@ class FixtureDifficultyService {
       // 4. Form Factor (rolling xG difference, normalized)
       const formFactorScaled = this.scaleTo100(opponentStrength.formFactor, minForm, maxForm);
       
-      // 5. Final FDR calculation
+      // 5. Final FDR calculation using adjustable weightings
       // Attack Difficulty = how hard for YOUR attackers = primarily based on OPPONENT's defense
-      // Use higher weight for opponent's defense, lower for context
       const attackDifficultyRaw = 
-        (defenseRatingScaled * 0.70) +      // Opponent's defense rating (primary - 70%)
-        (attackRatingScaled * 0.20) +      // Opponent's attack rating (context - 20%)
-        (homeAwayFactorScaled * 0.05) +    // Home/away factor (5%)
-        (formFactorScaled * 0.05);         // Form factor (5%)
+        (defenseRatingScaled * normalizedAttack.defenseRating) +
+        (attackRatingScaled * normalizedAttack.attackRating) +
+        (homeAwayFactorScaled * normalizedAttack.homeAwayFactor) +
+        (formFactorScaled * normalizedAttack.formFactor);
 
       // Defense Difficulty = how hard for YOUR defenders = primarily based on OPPONENT's attack
-      // Use higher weight for opponent's attack, lower for context
       const defenseDifficultyRaw =
-        (attackRatingScaled * 0.70) +      // Opponent's attack rating (primary - 70%)
-        (defenseRatingScaled * 0.20) +     // Opponent's defense rating (context - 20%)
-        (homeAwayFactorScaled * 0.05) +    // Home/away factor (5%)
-        (formFactorScaled * 0.05);         // Form factor (5%)
+        (attackRatingScaled * normalizedDefense.attackRating) +
+        (defenseRatingScaled * normalizedDefense.defenseRating) +
+        (homeAwayFactorScaled * normalizedDefense.homeAwayFactor) +
+        (formFactorScaled * normalizedDefense.formFactor);
 
       // Convert to 1-5 scale
       const attackDifficulty = this.scaleToDifficulty(attackDifficultyRaw);
@@ -449,7 +512,11 @@ class FixtureDifficultyService {
   /**
    * Get upcoming fixtures for a team
    */
-  async getTeamUpcomingFixtures(teamId: number, count: number = 10): Promise<FixtureDifficulty[]> {
+  async getTeamUpcomingFixtures(
+    teamId: number, 
+    count: number = 10,
+    weightings?: Partial<DifficultyWeightings>
+  ): Promise<FixtureDifficulty[]> {
     try {
       // Cache fixtures data to avoid repeated API calls
       if (!this.fixturesCache) {
@@ -473,7 +540,7 @@ class FixtureDifficultyService {
           isHome: f.team_h === teamId,
         }));
 
-      return await this.calculateFixtureDifficulty(teamId, teamFixtures);
+      return await this.calculateFixtureDifficulty(teamId, teamFixtures, weightings);
     } catch (error) {
       console.error(`Failed to get upcoming fixtures for team ${teamId}:`, error);
       return [];

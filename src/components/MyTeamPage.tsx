@@ -136,6 +136,8 @@ interface PitchPlayerProps {
   fixtureIndex?: number; // Which fixture to show (0 = next, 1 = +1 week, etc.)
 }
 
+// ... existing code ...
+
 const PitchPlayer: React.FC<PitchPlayerProps> = ({ 
   pick, 
   showFixtures = true, 
@@ -156,43 +158,56 @@ const PitchPlayer: React.FC<PitchPlayerProps> = ({
       onClick={canBeSelected ? onClick : undefined}
     >
       {/* Player shirt/badge - shows next fixture */}
-      <div className={`relative w-16 h-16 md:w-18 md:h-18 rounded-xl bg-gradient-to-br ${getPositionColor(player.position)} shadow-xl flex flex-col items-center justify-center text-white border-2 ${
-        isSelected 
-          ? 'border-yellow-400 ring-4 ring-yellow-400/50' 
-          : isValidTarget 
-            ? 'border-emerald-400 ring-4 ring-emerald-400/50 animate-pulse' 
-            : 'border-white/50'
-      }`}>
+      <div 
+        className={`relative w-12 h-16 md:w-18 md:h-18 rounded-xl shadow-xl flex flex-col items-center justify-center text-white border-2 overflow-hidden ${
+          isSelected 
+            ? 'border-yellow-400 ring-4 ring-yellow-400/50' 
+            : isValidTarget 
+              ? 'border-emerald-400 ring-4 ring-emerald-400/50 animate-pulse' 
+              : 'border-white/50'
+        }`}
+        style={{
+          backgroundImage: `url(public/kits/${player.teamId}.PNG)`,
+          backgroundSize: 'contain',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/30"></div>
+        
         {/* Next fixture */}
-        {nextFixture ? (
-          <>
-            <div className="text-xs md:text-sm font-bold leading-none uppercase">{nextFixture.opponentShort}</div>
-            <div className="text-[10px] opacity-90">({nextFixture.isHome ? 'H' : 'A'})</div>
-          </>
-        ) : (
-          <div className="text-xs opacity-80">-</div>
-        )}
+        <div className="relative z-10">
+          {nextFixture ? (
+            <>
+              <div className="text-xs md:text-sm font-bold leading-none uppercase">{nextFixture.opponentShort}</div>
+              <div className="text-[10px] opacity-90">({nextFixture.isHome ? 'H' : 'A'})</div>
+            </>
+          ) : (
+            <div className="text-xs opacity-80">-</div>
+          )}
+        </div>
         
         {/* Captain badge */}
         {isCaptain && (
-          <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full flex items-center justify-center border-2 border-white shadow-lg">
+          <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full flex items-center justify-center border-2 border-white shadow-lg z-20">
             <Crown className="w-3.5 h-3.5 text-yellow-900" />
           </div>
         )}
         {isViceCaptain && (
-          <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-gray-200 to-gray-400 rounded-full flex items-center justify-center border-2 border-white shadow-lg">
+          <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-gray-200 to-gray-400 rounded-full flex items-center justify-center border-2 border-white shadow-lg z-20">
             <Star className="w-3.5 h-3.5 text-gray-700" />
           </div>
         )}
         
         {/* Selection indicator */}
         {isSelected && (
-          <div className="absolute -bottom-1 -left-1 w-5 h-5 bg-yellow-400 rounded-full flex items-center justify-center border-2 border-white shadow-lg">
+          <div className="absolute -bottom-1 -left-1 w-5 h-5 bg-yellow-400 rounded-full flex items-center justify-center border-2 border-white shadow-lg z-20">
             <Check className="w-3 h-3 text-yellow-900" />
           </div>
         )}
         {isValidTarget && (
-          <div className="absolute -bottom-1 -left-1 w-5 h-5 bg-emerald-400 rounded-full flex items-center justify-center border-2 border-white shadow-lg">
+          <div className="absolute -bottom-1 -left-1 w-5 h-5 bg-emerald-400 rounded-full flex items-center justify-center border-2 border-white shadow-lg z-20">
             <ArrowUpDown className="w-3 h-3 text-emerald-900" />
           </div>
         )}
@@ -259,9 +274,16 @@ const BenchPlayer: React.FC<BenchPlayerProps> = ({
       onClick={onClick}
     >
       <div className="text-[10px] text-white/50 font-medium mb-1.5">SUB {index + 1}</div>
-      <div className={`w-11 h-11 rounded-lg bg-gradient-to-br ${getPositionColor(player.position)} shadow-md flex flex-col items-center justify-center text-white border ${
+      <div className={`w-8 h-11 rounded-lg bg-gradient-to-br ${getPositionColor(player.position)} shadow-md flex flex-col items-center justify-center text-white border ${
         isSelected ? 'border-yellow-400' : isValidTarget ? 'border-emerald-400' : 'border-white/40'
-      }`}>
+      }`}
+      style={{
+        backgroundImage: `url(public/kits/${player.teamId}.PNG)`,
+        backgroundSize: 'contain',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+      >
         {/* Next fixture */}
         {nextFixture ? (
           <>
@@ -687,10 +709,12 @@ export const MyTeamPage: React.FC = () => {
   const [initialStarters, setInitialStarters] = useState<MyTeamPick[]>([]); // Truly original (before any transfers)
   const [initialBench, setInitialBench] = useState<MyTeamPick[]>([]); // Truly original (before any transfers)
   const [initialBank, setInitialBank] = useState<number>(0); // Original bank balance
+  const [initialTransfersAvailable, setInitialTransfersAvailable] = useState<number>(0); // Original transfers available
   const [selectedPlayer, setSelectedPlayer] = useState<{ type: 'starter' | 'bench'; index: number } | null>(null);
   
   // Transfer state
   const [plannedTransfers, setPlannedTransfers] = useState<PlannedTransfer[]>([]);
+  const [confirmedTransfersThisWeek, setConfirmedTransfersThisWeek] = useState<number>(0); // Track transfers confirmed this week
   const [transferOutPlayer, setTransferOutPlayer] = useState<MyTeamPick | null>(null);
   const [replacementOptions, setReplacementOptions] = useState<Player[]>([]);
   const [loadingReplacements, setLoadingReplacements] = useState(false);
@@ -701,6 +725,10 @@ export const MyTeamPage: React.FC = () => {
   const [showTransferModal, setShowTransferModal] = useState(false);
   const [confirmError, setConfirmError] = useState<string | null>(null);
   
+  // Team ID change state
+  const [showChangeTeamId, setShowChangeTeamId] = useState(false);
+  const [newTeamId, setNewTeamId] = useState('');
+  
   // Gameweek navigation state
   const [selectedGameweek, setSelectedGameweek] = useState<number>(0); // 0 = current GW, offset from current
 
@@ -710,29 +738,10 @@ export const MyTeamPage: React.FC = () => {
     return !starters.every((s, i) => s.player.id === originalStarters[i].player.id);
   }, [starters, originalStarters]);
 
-  // Check if current team differs from initial (before any confirmed transfers)
-  const hasConfirmedTransfers = useMemo(() => {
-    if (initialStarters.length === 0) return false;
-    
-    // Check if any starter is different from initial
-    for (let i = 0; i < starters.length; i++) {
-      if (!initialStarters[i]) return true;
-      if (starters[i].player.id !== initialStarters[i].player.id) return true;
-    }
-    
-    // Check if any bench player is different from initial
-    for (let i = 0; i < bench.length; i++) {
-      if (!initialBench[i]) return true;
-      if (bench[i].player.id !== initialBench[i].player.id) return true;
-    }
-    
-    return false;
-  }, [starters, bench, initialStarters, initialBench]);
-
-  // Calculate if there are any changes (subs, planned transfers, or confirmed transfers)
+  // Calculate if there are any changes (subs or planned transfers only - confirmed transfers don't count as "changes")
   const hasChanges = useMemo(() => {
-    return hasSubChanges || plannedTransfers.length > 0 || hasConfirmedTransfers;
-  }, [hasSubChanges, plannedTransfers, hasConfirmedTransfers]);
+    return hasSubChanges || plannedTransfers.length > 0;
+  }, [hasSubChanges, plannedTransfers]);
 
   // Calculate valid swap targets
   const validTargets = useMemo(() => {
@@ -796,6 +805,29 @@ export const MyTeamPage: React.FC = () => {
 
   // Check if transfers are valid (positive budget)
 
+  // Calculate dynamic transfer count (updates with gameweek and planned transfers)
+  const availableTransfers = useMemo(() => {
+    if (!team) return 0;
+    
+    // transfersAvailable represents free transfers for the NEXT week after any confirmed transfers
+    // For current week (selectedGameweek = 0): show current week's transfers (starting transfers - confirmed)
+    // For future weeks (selectedGameweek > 0): transfersAvailable is already set for next week, 
+    //   so we add (selectedGameweek - 1) to account for additional weeks forward
+    
+    let baseTransfers: number;
+    if (selectedGameweek === 0) {
+      // Current week: start with original transfers available, subtract confirmed
+      baseTransfers = Math.min(5, initialTransfersAvailable + selectedGameweek);
+      const totalUsedTransfers = plannedTransfers.length + confirmedTransfersThisWeek;
+      return Math.max(0, baseTransfers - totalUsedTransfers);
+    } else {
+      // Future weeks: transfersAvailable is for next week, add (selectedGameweek - 1) for each additional week
+      baseTransfers = Math.min(5, team.info.transfersAvailable + (selectedGameweek - 1));
+      // Subtract planned transfers for this future week
+      return Math.max(0, baseTransfers - plannedTransfers.length);
+    }
+  }, [team, selectedGameweek, plannedTransfers, confirmedTransfersThisWeek, initialTransfersAvailable]);
+
   // Calculate transfer cost (points hit)
   const transferCost = useMemo(() => {
     if (!team) return 0;
@@ -840,6 +872,8 @@ export const MyTeamPage: React.FC = () => {
         setInitialStarters([...team.starters]);
         setInitialBench([...team.bench]);
         setInitialBank(team.info.bank);
+        setInitialTransfersAvailable(team.info.transfersAvailable);
+        setConfirmedTransfersThisWeek(0); // Reset confirmed transfers when loading new team
       }
     }
   }, [team]);
@@ -861,11 +895,14 @@ export const MyTeamPage: React.FC = () => {
     setInitialBench([]);
     setInitialBank(0);
     setPlannedTransfers([]);
+    setConfirmedTransfersThisWeek(0);
 
     try {
       const teamData = await myTeamService.getTeam(numericId);
       setTeam(teamData);
       localStorage.setItem('fpl_team_id', id.trim());
+      setShowChangeTeamId(false);
+      setNewTeamId('');
     } catch (err: any) {
       setError(err.message || 'Failed to load team');
       setTeam(null);
@@ -959,19 +996,21 @@ export const MyTeamPage: React.FC = () => {
     setOriginalBench([...initialBench]);
     setSelectedPlayer(null);
     setPlannedTransfers([]);
+    setConfirmedTransfersThisWeek(0);
     setTransferOutPlayer(null);
     setReplacementOptions([]);
     setSearchQuery('');
     setClickedPlayer(null);
     setShowTransferModal(false);
     
-    // Reset team state including bank balance
+    // Reset team state including bank balance and transfers
     if (team) {
       setTeam({
         ...team,
         info: {
           ...team.info,
           bank: initialBank,
+          transfersAvailable: initialTransfersAvailable, // Restore original transfers available
         },
         starters: [...initialStarters],
         bench: [...initialBench],
@@ -1084,14 +1123,25 @@ export const MyTeamPage: React.FC = () => {
     
     console.log('✅ Confirming transfers:', plannedTransfers.length);
     
+    // Calculate new transfers available for next week
+    // If transfers used <= free transfers: next week you get 1 free transfer
+    // If transfers used > free transfers (took a hit): next week you get 0 free transfers
+    const transfersMade = plannedTransfers.length;
+    const freeTransfersAvailable = team?.info.transfersAvailable || 0;
+    const newTransfersAvailable = transfersMade > freeTransfersAvailable ? 0 : 1;
+    
+    // Track confirmed transfers for current week display
+    setConfirmedTransfersThisWeek(prev => prev + transfersMade);
+    
     // Players are already in the lineup - just need to finalize
-    // Update team state with new bank balance
+    // Update team state with new bank balance and transfers available
     if (team) {
       setTeam({
         ...team,
         info: {
           ...team.info,
           bank: finalBudget,
+          transfersAvailable: newTransfersAvailable,
         },
         starters: [...starters],
         bench: [...bench],
@@ -1099,12 +1149,8 @@ export const MyTeamPage: React.FC = () => {
       });
     }
     
-    // Save current state as the new "initial" state (so reset goes back to this)
-    setInitialStarters([...starters]);
-    setInitialBench([...bench]);
-    setInitialBank(finalBudget);
-    
-    // Also update originalStarters/Bench for sub tracking
+    // DO NOT update initialStarters/Bench - these should remain as the truly original state
+    // Only update originalStarters/Bench for sub tracking (this allows subs to be reset)
     setOriginalStarters([...starters]);
     setOriginalBench([...bench]);
     
@@ -1112,7 +1158,7 @@ export const MyTeamPage: React.FC = () => {
     setConfirmError(null);
     setPlannedTransfers([]);
     
-    console.log(`✅ ${plannedTransfers.length} transfer(s) confirmed and saved!`);
+    console.log(`✅ ${plannedTransfers.length} transfer(s) confirmed and saved! New transfers available: ${newTransfersAvailable}`);
   };
 
   const handleCancelTransferOut = () => {
@@ -1178,44 +1224,46 @@ export const MyTeamPage: React.FC = () => {
         </p>
       </div>
 
-      {/* Team ID Input */}
-      <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-        <div className="flex flex-col md:flex-row gap-4 items-start md:items-end">
-          <div className="flex-1">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              FPL Team ID
-            </label>
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
-              <input
-                type="text"
-                placeholder="Enter your team ID (e.g., 1234567)"
-                value={teamId}
-                onChange={(e) => setTeamId(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleLoadTeam()}
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-lg"
-              />
+      {/* Team ID Input - Only show when no team is loaded */}
+      {!team && (
+        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+          <div className="flex flex-col md:flex-row gap-4 items-start md:items-end">
+            <div className="flex-1">
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                FPL Team ID
+              </label>
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                <input
+                  type="text"
+                  placeholder="Enter your team ID (e.g., 1234567)"
+                  value={teamId}
+                  onChange={(e) => setTeamId(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && handleLoadTeam()}
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-lg"
+                />
+              </div>
             </div>
+            <button
+              onClick={handleLoadTeam}
+              disabled={loading || !teamId.trim()}
+              className="px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors flex items-center gap-2"
+            >
+              {loading ? (
+                <>
+                  <Loader2 className="w-5 h-5 animate-spin" />
+                  Loading...
+                </>
+              ) : (
+                <>
+                  <Save className="w-5 h-5" />
+                  Load Team
+                </>
+              )}
+            </button>
           </div>
-          <button
-            onClick={handleLoadTeam}
-            disabled={loading || !teamId.trim()}
-            className="px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors flex items-center gap-2"
-          >
-            {loading ? (
-              <>
-                <Loader2 className="w-5 h-5 animate-spin" />
-                Loading...
-              </>
-            ) : (
-              <>
-                <Save className="w-5 h-5" />
-                Load Team
-              </>
-            )}
-          </button>
         </div>
-      </div>
+      )}
 
       {/* Error Display */}
       {error && (
@@ -1249,9 +1297,80 @@ export const MyTeamPage: React.FC = () => {
           {/* Team Header */}
           <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg p-6 text-white mb-6">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-              <div>
-                <h3 className="text-xl font-bold">{team.info.teamName}</h3>
+              <div className="flex-1">
+                <div className="flex items-center gap-3 mb-1 flex-wrap">
+                  <h3 className="text-xl font-bold">{team.info.teamName}</h3>
+                  <button
+                    onClick={() => {
+                      setShowChangeTeamId(!showChangeTeamId);
+                      setNewTeamId(teamId);
+                    }}
+                    className="text-primary-100 hover:text-white text-xs font-medium px-2 py-1 rounded hover:bg-white/10 transition-colors"
+                    title="Change Team ID"
+                  >
+                    Change Team
+                  </button>
+                  {(hasChanges || confirmedTransfersThisWeek > 0) && (
+                    <button
+                      onClick={handleResetAll}
+                      className="flex items-center gap-1.5 text-primary-100 hover:text-white text-xs font-medium px-2 py-1 rounded bg-white/10 hover:bg-white/20 transition-colors"
+                      title="Reset team to original state and restore free transfers"
+                    >
+                      <RotateCcw className="w-3.5 h-3.5" />
+                      Reset Team
+                    </button>
+                  )}
+                </div>
                 <p className="text-primary-100 text-sm">{team.info.managerName}</p>
+                {/* Compact Team ID Change Input */}
+                {showChangeTeamId && (
+                  <div className="mt-3 flex items-center gap-2 bg-white/10 rounded-lg p-2 backdrop-blur-sm">
+                    <Search className="w-4 h-4 text-primary-100" />
+                    <input
+                      type="text"
+                      placeholder="New Team ID"
+                      value={newTeamId}
+                      onChange={(e) => setNewTeamId(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' && newTeamId.trim()) {
+                          setTeamId(newTeamId.trim());
+                          loadTeam(newTeamId.trim());
+                          setShowChangeTeamId(false);
+                        } else if (e.key === 'Escape') {
+                          setShowChangeTeamId(false);
+                        }
+                      }}
+                      className="flex-1 bg-white/90 text-gray-900 px-3 py-1.5 rounded text-sm focus:outline-none focus:ring-2 focus:ring-white/50"
+                      autoFocus
+                    />
+                    <button
+                      onClick={() => {
+                        if (newTeamId.trim()) {
+                          setTeamId(newTeamId.trim());
+                          loadTeam(newTeamId.trim());
+                          setShowChangeTeamId(false);
+                        }
+                      }}
+                      disabled={loading || !newTeamId.trim()}
+                      className="px-3 py-1.5 bg-white/20 hover:bg-white/30 text-white text-sm font-medium rounded transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {loading ? (
+                        <Loader2 className="w-4 h-4 animate-spin" />
+                      ) : (
+                        <Save className="w-4 h-4" />
+                      )}
+                    </button>
+                    <button
+                      onClick={() => {
+                        setShowChangeTeamId(false);
+                        setNewTeamId('');
+                      }}
+                      className="px-2 py-1.5 text-primary-100 hover:text-white transition-colors"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  </div>
+                )}
               </div>
               <div className="flex flex-wrap gap-4 md:gap-6">
                 <div className="flex items-center gap-2">
@@ -1278,66 +1397,101 @@ export const MyTeamPage: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <Wallet className="w-5 h-5 text-green-300" />
                   <div>
-                    <div className="text-lg font-bold">£{team.info.bank.toFixed(1)}m</div>
-                    <div className="text-primary-200 text-xs">Bank</div>
+                    <div className="text-lg font-bold">£{team.info.teamValue.toFixed(1)}m</div>
+                    <div className="text-primary-200 text-xs">Team Value</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ArrowRightLeft className="w-5 h-5 text-blue-300" />
+                  <div>
+                    <div className="text-lg font-bold">{availableTransfers}</div>
+                    <div className="text-primary-200 text-xs">Free Transfer{availableTransfers !== 1 ? 's' : ''}</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Gameweek Navigation */}
+          {/* Gameweek Navigation & View Toggle */}
           <div className="bg-white rounded-lg shadow-md p-4 mb-4">
             <div className="flex items-center justify-between flex-wrap gap-3">
-              <div className="flex items-center gap-2 text-gray-600">
-                <Calendar className="w-5 h-5" />
-                <span className="font-medium">Viewing Fixtures</span>
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 text-gray-600">
+                  <Calendar className="w-5 h-5" />
+                  <span className="font-medium">Viewing Fixtures</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setSelectedGameweek(Math.max(0, selectedGameweek - 1))}
+                    disabled={selectedGameweek === 0}
+                    className={`p-2 rounded-lg transition-colors ${
+                      selectedGameweek === 0 
+                        ? 'text-gray-300 cursor-not-allowed' 
+                        : 'text-gray-600 hover:bg-gray-100'
+                    }`}
+                  >
+                    <ChevronLeft className="w-5 h-5" />
+                  </button>
+                  <div className="flex items-center gap-1">
+                    {[0, 1, 2, 3, 4].map(offset => (
+                      <button
+                        key={offset}
+                        onClick={() => setSelectedGameweek(offset)}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                          selectedGameweek === offset
+                            ? 'bg-primary-600 text-white shadow-md'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                      >
+                        GW{team.info.currentGameweek + offset}
+                      </button>
+                    ))}
+                  </div>
+                  <button
+                    onClick={() => setSelectedGameweek(Math.min(4, selectedGameweek + 1))}
+                    disabled={selectedGameweek === 4}
+                    className={`p-2 rounded-lg transition-colors ${
+                      selectedGameweek === 4 
+                        ? 'text-gray-300 cursor-not-allowed' 
+                        : 'text-gray-600 hover:bg-gray-100'
+                    }`}
+                  >
+                    <ChevronRight className="w-5 h-5" />
+                  </button>
+                </div>
+                <div className="text-sm">
+                  {selectedGameweek === 0 ? (
+                    <span className="px-2 py-1 bg-green-100 text-green-700 rounded-full font-medium">Next fixture</span>
+                  ) : (
+                    <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full font-medium">+{selectedGameweek} week{selectedGameweek > 1 ? 's' : ''}</span>
+                  )}
+                </div>
               </div>
               <div className="flex items-center gap-2">
-                <button
-                  onClick={() => setSelectedGameweek(Math.max(0, selectedGameweek - 1))}
-                  disabled={selectedGameweek === 0}
-                  className={`p-2 rounded-lg transition-colors ${
-                    selectedGameweek === 0 
-                      ? 'text-gray-300 cursor-not-allowed' 
-                      : 'text-gray-600 hover:bg-gray-100'
-                  }`}
-                >
-                  <ChevronLeft className="w-5 h-5" />
-                </button>
-                <div className="flex items-center gap-1">
-                  {[0, 1, 2, 3, 4].map(offset => (
-                    <button
-                      key={offset}
-                      onClick={() => setSelectedGameweek(offset)}
-                      className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
-                        selectedGameweek === offset
-                          ? 'bg-primary-600 text-white shadow-md'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      }`}
-                    >
-                      GW{team.info.currentGameweek + offset}
-                    </button>
-                  ))}
+                <div className="inline-flex rounded-lg border border-gray-200 p-1 bg-white">
+                  <button
+                    onClick={() => setViewMode('pitch')}
+                    className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                      viewMode === 'pitch'
+                        ? 'bg-primary-600 text-white'
+                        : 'text-gray-600 hover:text-gray-900'
+                    }`}
+                  >
+                    <LayoutGrid className="w-4 h-4" />
+                    Pitch View
+                  </button>
+                  <button
+                    onClick={() => setViewMode('table')}
+                    className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                      viewMode === 'table'
+                        ? 'bg-primary-600 text-white'
+                        : 'text-gray-600 hover:text-gray-900'
+                    }`}
+                  >
+                    <Table className="w-4 h-4" />
+                    List View
+                  </button>
                 </div>
-                <button
-                  onClick={() => setSelectedGameweek(Math.min(4, selectedGameweek + 1))}
-                  disabled={selectedGameweek === 4}
-                  className={`p-2 rounded-lg transition-colors ${
-                    selectedGameweek === 4 
-                      ? 'text-gray-300 cursor-not-allowed' 
-                      : 'text-gray-600 hover:bg-gray-100'
-                  }`}
-                >
-                  <ChevronRight className="w-5 h-5" />
-                </button>
-              </div>
-              <div className="text-sm">
-                {selectedGameweek === 0 ? (
-                  <span className="px-2 py-1 bg-green-100 text-green-700 rounded-full font-medium">Next fixture</span>
-                ) : (
-                  <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full font-medium">+{selectedGameweek} week{selectedGameweek > 1 ? 's' : ''}</span>
-                )}
               </div>
             </div>
           </div>
@@ -1534,69 +1688,33 @@ export const MyTeamPage: React.FC = () => {
             </div>
           )}
 
-          {/* View Toggle */}
-          <div className="flex justify-end mb-4">
-            <div className="inline-flex rounded-lg border border-gray-200 p-1 bg-white">
-              <button
-                onClick={() => setViewMode('pitch')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-colors ${
-                  viewMode === 'pitch'
-                    ? 'bg-primary-600 text-white'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                <LayoutGrid className="w-4 h-4" />
-                Pitch View
-              </button>
-              <button
-                onClick={() => setViewMode('table')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-colors ${
-                  viewMode === 'table'
-                    ? 'bg-primary-600 text-white'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-              >
-                <Table className="w-4 h-4" />
-                List View
-              </button>
+          {/* Team View - Split Layout */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Left: Team View */}
+            <div>
+              {viewMode === 'pitch' ? (
+                <FootballPitch 
+                  starters={starters}
+                  bench={bench}
+                  selectedPlayer={selectedPlayer}
+                  validTargets={validTargets}
+                  onStarterClick={handleStarterClick}
+                  onBenchClick={handleBenchClick}
+                  hasChanges={hasChanges}
+                  onReset={handleReset}
+                  fixtureIndex={selectedGameweek}
+                />
+              ) : (
+                <TableView starters={starters} bench={bench} />
+              )}
             </div>
-          </div>
-
-          {/* Team View */}
-          {viewMode === 'pitch' ? (
-            <FootballPitch 
-              starters={starters}
-              bench={bench}
-              selectedPlayer={selectedPlayer}
-              validTargets={validTargets}
-              onStarterClick={handleStarterClick}
-              onBenchClick={handleBenchClick}
-              hasChanges={hasChanges}
-              onReset={handleReset}
-              fixtureIndex={selectedGameweek}
-            />
-          ) : (
-            <TableView starters={starters} bench={bench} />
-          )}
-
-          {/* Team Value Summary */}
-          <div className="bg-white rounded-lg shadow-md p-4 mt-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-              <div>
-                <div className="text-2xl font-bold text-gray-900">£{team.info.teamValue.toFixed(1)}m</div>
-                <div className="text-sm text-gray-500">Team Value</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-gray-900">£{team.info.bank.toFixed(1)}m</div>
-                <div className="text-sm text-gray-500">In Bank</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-gray-900">£{(team.info.teamValue + team.info.bank).toFixed(1)}m</div>
-                <div className="text-sm text-gray-500">Total Budget</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-primary-600">GW{team.info.currentGameweek}</div>
-                <div className="text-sm text-gray-500">Current Gameweek</div>
+            
+            {/* Right: Metrics Area (placeholder for future content) */}
+            <div className="bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 flex items-center justify-center min-h-[400px]">
+              <div className="text-center text-gray-400">
+                <BarChart3 className="w-12 h-12 mx-auto mb-2 opacity-50" />
+                <p className="text-sm font-medium">Metrics & Analysis</p>
+                <p className="text-xs mt-1">Coming soon</p>
               </div>
             </div>
           </div>

@@ -846,6 +846,21 @@ def sync_all(quick=False):
         print(f"   Sell Recommendations: {metadata['sell_recommendations']}")
     print()
 
+    # Copy files to public/data/ for frontend static serving
+    PUBLIC_DATA_DIR = "public/data"
+    if os.path.exists(PUBLIC_DATA_DIR):
+        print("\n�� Copying data files to public/data/ for frontend...")
+        for filename in FILES.values():
+            src = os.path.join(DATA_DIR, filename)
+            dst = os.path.join(PUBLIC_DATA_DIR, filename)
+            if os.path.exists(src):
+                import shutil
+                shutil.copy2(src, dst)
+                print(f"  ✅ Copied {filename}")
+        print("✅ All files copied to public/data/\n")
+    else:
+        print(f"⚠️  {PUBLIC_DATA_DIR} directory not found, skipping copy")
+
 
 # ============================================================================
 # CLI

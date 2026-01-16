@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { fixtureDifficultyService, type FixtureDifficulty } from '../services/fixtureDifficultyService';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { fixtureDifficultyService, type FixtureDifficulty, type DifficultyWeightings } from '../services/fixtureDifficultyService';
 import { dataService } from '../services/dataService';
-import { Search, Loader2, Eye, EyeOff, Home, MapPin, ArrowUpDown, TrendingUp, TrendingDown } from 'lucide-react';
+import { Search, Loader2, Eye, EyeOff, Home, MapPin, ArrowUpDown, TrendingUp, TrendingDown, Settings, RotateCcw } from 'lucide-react';
 
 interface Team {
   id: number;
@@ -15,6 +15,19 @@ interface TeamFixtures {
   loading: boolean;
 }
 
+const DEFAULT_WEIGHTINGS: DifficultyWeightings = {
+  alpha: 0.7,
+  beta: 0.7,
+  attackDefenseRating: 0.70,
+  attackAttackRating: 0.20,
+  attackHomeAwayFactor: 0.05,
+  attackFormFactor: 0.05,
+  defenseAttackRating: 0.70,
+  defenseDefenseRating: 0.20,
+  defenseHomeAwayFactor: 0.05,
+  defenseFormFactor: 0.05,
+};
+
 export const FixtureDifficultyPage: React.FC = () => {
   const [teams, setTeams] = useState<Team[]>([]);
   const [teamFixtures, setTeamFixtures] = useState<Map<number, TeamFixtures>>(new Map());
@@ -24,27 +37,45 @@ export const FixtureDifficultyPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [maxFixtures, setMaxFixtures] = useState(5);
   const [sortBy, setSortBy] = useState<'none' | 'attack' | 'defense'>('none');
-
-  useEffect(() => {
-    loadTeams();
-  }, []);
-
-  useEffect(() => {
-    if (teams.length > 0) {
-      const timer = setTimeout(async () => {
-        try {
-          console.log('🔄 Pre-calculating team strengths...');
-          await fixtureDifficultyService.calculateTeamStrengths();
-          console.log('✅ Team strengths ready, loading fixtures...');
-          await loadAllTeamFixtures();
-        } catch (error) {
-          console.error('Failed to load team fixtures:', error);
-          setError('Failed to load fixture difficulty data. Please try again later.');
+  const [showWeightings, setShowWeightings] = useState(false);
+  
+  // Load weightings from localStorage or use defaults
+  const loadWeightings = (): DifficultyWeightings => {
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        const stored = localStorage.getItem('fdr_weightings');
+        if (stored) {
+          try {
+            const parsed = JSON.parse(stored);
+            // Validate that parsed object has all required fields
+            const validated = { ...DEFAULT_WEIGHTINGS };
+            Object.keys(DEFAULT_WEIGHTINGS).forEach(key => {
+              const typedKey = key as keyof DifficultyWeightings;
+              if (parsed[typedKey] !== undefined && typeof parsed[typedKey] === 'number') {
+                validated[typedKey] = parsed[typedKey];
+              }
+            });
+            return validated;
+          } catch (e) {
+            console.warn('Failed to parse weightings from localStorage:', e);
+            return DEFAULT_WEIGHTINGS;
+          }
         }
-      }, 500);
-      return () => clearTimeout(timer);
+      }
+    } catch (error) {
+      console.warn('Failed to load weightings from localStorage:', error);
     }
-  }, [teams.length, maxFixtures]);
+    return DEFAULT_WEIGHTINGS;
+  };
+  
+  const [weightings, setWeightings] = useState<DifficultyWeightings>(() => {
+    try {
+      return loadWeightings();
+    } catch (error) {
+      console.error('Error initializing weightings:', error);
+      return DEFAULT_WEIGHTINGS;
+    }
+  });
 
   const loadTeams = async () => {
     try {
@@ -60,7 +91,7 @@ export const FixtureDifficultyPage: React.FC = () => {
     }
   };
 
-  const loadAllTeamFixtures = async () => {
+  const loadAllTeamFixtures = useCallback(async () => {
     try {
       const fixturesMap = new Map<number, TeamFixtures>();
       
@@ -80,7 +111,7 @@ export const FixtureDifficultyPage: React.FC = () => {
         await Promise.allSettled(
           batch.map(async (team) => {
             try {
-              const fixtures = await fixtureDifficultyService.getTeamUpcomingFixtures(team.id, maxFixtures);
+              const fixtures = await fixtureDifficultyService.getTeamUpcomingFixtures(team.id, maxFixtures, weightings);
               fixturesMap.set(team.id, {
                 team,
                 fixtures,
@@ -105,6 +136,46 @@ export const FixtureDifficultyPage: React.FC = () => {
       console.error('Error in loadAllTeamFixtures:', error);
       setError('Failed to load fixture difficulty.');
     }
+  }, [teams, maxFixtures, weightings]);
+
+  useEffect(() => {
+    loadTeams();
+  }, []);
+
+  useEffect(() => {
+    if (teams.length > 0) {
+      const timer = setTimeout(async () => {
+        try {
+          console.log('🔄 Pre-calculating team strengths...');
+          await fixtureDifficultyService.calculateTeamStrengths();
+          console.log('✅ Team strengths ready, loading fixtures...');
+          await loadAllTeamFixtures();
+        } catch (error) {
+          console.error('Failed to load team fixtures:', error);
+          setError('Failed to load fixture difficulty data. Please try again later.');
+        }
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [teams.length, loadAllTeamFixtures]);
+
+  const updateWeighting = (key: keyof DifficultyWeightings, value: number) => {
+    try {
+      const updated = { ...weightings, [key]: value };
+      setWeightings(updated);
+      if (typeof window !== 'undefined' && window.localStorage) {
+        localStorage.setItem('fdr_weightings', JSON.stringify(updated));
+      }
+    } catch (error) {
+      console.warn('Failed to save weightings to localStorage:', error);
+      // Still update state even if localStorage fails
+      setWeightings({ ...weightings, [key]: value });
+    }
+  };
+
+  const resetWeightings = () => {
+    setWeightings(DEFAULT_WEIGHTINGS);
+    localStorage.removeItem('fdr_weightings');
   };
 
   const toggleTeamVisibility = (teamId: number) => {
@@ -283,9 +354,226 @@ export const FixtureDifficultyPage: React.FC = () => {
             >
               Show All
             </button>
+            <button
+              onClick={() => setShowWeightings(!showWeightings)}
+              className={`px-3 py-1 text-sm rounded-lg border transition-colors flex items-center gap-2 ${
+                showWeightings
+                  ? 'bg-primary-600 text-white border-primary-600'
+                  : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+              }`}
+            >
+              <Settings className="w-4 h-4" />
+              Weightings
+            </button>
           </div>
         </div>
       </div>
+
+      {showWeightings && (
+        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-semibold text-gray-900">Rating Calculation Weightings</h3>
+            <button
+              onClick={resetWeightings}
+              className="flex items-center gap-2 px-3 py-1 text-sm text-gray-600 hover:text-gray-800 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            >
+              <RotateCcw className="w-4 h-4" />
+              Reset to Defaults
+            </button>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Base Weightings */}
+            <div className="space-y-4">
+              <h4 className="font-semibold text-gray-700 border-b pb-2">Base Weightings</h4>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  xG vs GF (α): {weightings.alpha.toFixed(2)}
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.alpha}
+                  onChange={(e) => updateWeighting('alpha', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+                <div className="flex justify-between text-xs text-gray-500 mt-1">
+                  <span>0 (All GF)</span>
+                  <span>1 (All xG)</span>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  xGA vs GA (β): {weightings.beta.toFixed(2)}
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.beta}
+                  onChange={(e) => updateWeighting('beta', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+                <div className="flex justify-between text-xs text-gray-500 mt-1">
+                  <span>0 (All GA)</span>
+                  <span>1 (All xGA)</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Attack Difficulty Weightings */}
+            <div className="space-y-4">
+              <h4 className="font-semibold text-gray-700 border-b pb-2">Attack Difficulty Components</h4>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Opponent Defense Rating: {(weightings.attackDefenseRating * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.attackDefenseRating}
+                  onChange={(e) => updateWeighting('attackDefenseRating', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Opponent Attack Rating: {(weightings.attackAttackRating * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.attackAttackRating}
+                  onChange={(e) => updateWeighting('attackAttackRating', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Home/Away Factor: {(weightings.attackHomeAwayFactor * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.attackHomeAwayFactor}
+                  onChange={(e) => updateWeighting('attackHomeAwayFactor', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Form Factor: {(weightings.attackFormFactor * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.attackFormFactor}
+                  onChange={(e) => updateWeighting('attackFormFactor', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+            </div>
+
+            {/* Defense Difficulty Weightings */}
+            <div className="space-y-4">
+              <h4 className="font-semibold text-gray-700 border-b pb-2">Defense Difficulty Components</h4>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Opponent Attack Rating: {(weightings.defenseAttackRating * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.defenseAttackRating}
+                  onChange={(e) => updateWeighting('defenseAttackRating', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Opponent Defense Rating: {(weightings.defenseDefenseRating * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.defenseDefenseRating}
+                  onChange={(e) => updateWeighting('defenseDefenseRating', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Home/Away Factor: {(weightings.defenseHomeAwayFactor * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.defenseHomeAwayFactor}
+                  onChange={(e) => updateWeighting('defenseHomeAwayFactor', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">
+                  Form Factor: {(weightings.defenseFormFactor * 100).toFixed(0)}%
+                </label>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value={weightings.defenseFormFactor}
+                  onChange={(e) => updateWeighting('defenseFormFactor', parseFloat(e.target.value))}
+                  className="w-full"
+                />
+              </div>
+            </div>
+
+            {/* Info Panel */}
+            <div className="space-y-2">
+              <h4 className="font-semibold text-gray-700 border-b pb-2">Info</h4>
+              <div className="text-sm text-gray-600 space-y-2">
+                <p>
+                  <strong>Attack Difficulty:</strong> How hard it is for your attackers to score against the opponent.
+                </p>
+                <p>
+                  <strong>Defense Difficulty:</strong> How hard it is for your defenders/GK to keep a clean sheet.
+                </p>
+                <p className="text-xs text-gray-500 mt-3">
+                  Component weights are automatically normalized to sum to 100%. Changes are saved automatically and applied immediately.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="overflow-x-auto">
