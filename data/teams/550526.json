@@ -1,0 +1,1821 @@
+{
+  "info": {
+    "id": 550526,
+    "managerName": "Kyle Nutt",
+    "teamName": "stinky diaper men",
+    "totalPoints": 1216,
+    "overallRank": 1397713,
+    "gameweekPoints": 53,
+    "gameweekRank": 641715,
+    "currentGameweek": 22,
+    "bank": 0.4,
+    "teamValue": 102.3,
+    "transfersAvailable": 2
+  },
+  "picks": [
+    {
+      "player": {
+        "id": 670,
+        "name": "Robin Roefs",
+        "webName": "Roefs",
+        "team": "Sunderland",
+        "teamId": 17,
+        "position": "GKP",
+        "price": 4.9,
+        "form": 5.2,
+        "totalPoints": 95,
+        "minutes": 1890,
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 7,
+        "selectedBy": 12.3
+      },
+      "position": 1,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Crystal Palace",
+          "opponentShort": "CRY",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "West Ham",
+          "opponentShort": "WHU",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Burnley",
+          "opponentShort": "BUR",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Arsenal",
+          "opponentShort": "ARS",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 5
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 5,
+        "name": "Gabriel dos Santos Magalhães",
+        "webName": "Gabriel",
+        "team": "Arsenal",
+        "teamId": 1,
+        "position": "DEF",
+        "price": 6.7,
+        "form": 5.2,
+        "totalPoints": 112,
+        "minutes": 1265,
+        "goals": 3,
+        "assists": 2,
+        "cleanSheets": 9,
+        "selectedBy": 31.5
+      },
+      "position": 2,
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 291,
+        "name": "James Tarkowski",
+        "webName": "Tarkowski",
+        "team": "Everton",
+        "teamId": 9,
+        "position": "DEF",
+        "price": 5.7,
+        "form": 4.5,
+        "totalPoints": 100,
+        "minutes": 1890,
+        "goals": 0,
+        "assists": 1,
+        "cleanSheets": 8,
+        "selectedBy": 12.7
+      },
+      "position": 3,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brighton",
+          "opponentShort": "BHA",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 684,
+        "name": "Malick Thiaw",
+        "webName": "Thiaw",
+        "team": "Newcastle",
+        "teamId": 15,
+        "position": "DEF",
+        "price": 5.1,
+        "form": 4.3,
+        "totalPoints": 75,
+        "minutes": 1487,
+        "goals": 3,
+        "assists": 0,
+        "cleanSheets": 3,
+        "selectedBy": 6.2
+      },
+      "position": 4,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8,
+        "name": "Jurriën Timber",
+        "webName": "J.Timber",
+        "team": "Arsenal",
+        "teamId": 1,
+        "position": "DEF",
+        "price": 6.3,
+        "form": 4.3,
+        "totalPoints": 104,
+        "minutes": 1639,
+        "goals": 2,
+        "assists": 4,
+        "cleanSheets": 9,
+        "selectedBy": 27.4
+      },
+      "position": 5,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 235,
+        "name": "Cole Palmer",
+        "webName": "Palmer",
+        "team": "Chelsea",
+        "teamId": 7,
+        "position": "MID",
+        "price": 10.4,
+        "form": 3.8,
+        "totalPoints": 36,
+        "minutes": 663,
+        "goals": 3,
+        "assists": 1,
+        "cleanSheets": 1,
+        "selectedBy": 12.3
+      },
+      "position": 6,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Crystal Palace",
+          "opponentShort": "CRY",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "West Ham",
+          "opponentShort": "WHU",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 417,
+        "name": "Rayan Cherki",
+        "webName": "Cherki",
+        "team": "Man City",
+        "teamId": 13,
+        "position": "MID",
+        "price": 6.8,
+        "form": 5.5,
+        "totalPoints": 76,
+        "minutes": 834,
+        "goals": 2,
+        "assists": 8,
+        "cleanSheets": 4,
+        "selectedBy": 15.7
+      },
+      "position": 7,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 21,
+        "name": "Declan Rice",
+        "webName": "Rice",
+        "team": "Arsenal",
+        "teamId": 1,
+        "position": "MID",
+        "price": 7.3,
+        "form": 6.3,
+        "totalPoints": 122,
+        "minutes": 1695,
+        "goals": 4,
+        "assists": 7,
+        "cleanSheets": 9,
+        "selectedBy": 26.7
+      },
+      "position": 8,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 47,
+        "name": "Morgan Rogers",
+        "webName": "Rogers",
+        "team": "Aston Villa",
+        "teamId": 2,
+        "position": "MID",
+        "price": 7.6,
+        "form": 6.7,
+        "totalPoints": 101,
+        "minutes": 1867,
+        "goals": 7,
+        "assists": 4,
+        "cleanSheets": 6,
+        "selectedBy": 31.7
+      },
+      "position": 9,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Everton",
+          "opponentShort": "EVE",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Brighton",
+          "opponentShort": "BHA",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 430,
+        "name": "Erling Haaland",
+        "webName": "Haaland",
+        "team": "Man City",
+        "teamId": 13,
+        "position": "FWD",
+        "price": 15.1,
+        "form": 6.8,
+        "totalPoints": 163,
+        "minutes": 1822,
+        "goals": 20,
+        "assists": 4,
+        "cleanSheets": 10,
+        "selectedBy": 74.2
+      },
+      "position": 10,
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "multiplier": 2,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 136,
+        "name": "Igor Thiago Nascimento Rodrigues",
+        "webName": "Thiago",
+        "team": "Brentford",
+        "teamId": 5,
+        "position": "FWD",
+        "price": 7.1,
+        "form": 6.7,
+        "totalPoints": 120,
+        "minutes": 1752,
+        "goals": 16,
+        "assists": 1,
+        "cleanSheets": 5,
+        "selectedBy": 34.4
+      },
+      "position": 11,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Chelsea",
+          "opponentShort": "CHE",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Arsenal",
+          "opponentShort": "ARS",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 470,
+        "name": "Martin Dúbravka",
+        "webName": "Dúbravka",
+        "team": "Burnley",
+        "teamId": 3,
+        "position": "GKP",
+        "price": 4.0,
+        "form": 3.3,
+        "totalPoints": 63,
+        "minutes": 1890,
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 3,
+        "selectedBy": 33.1
+      },
+      "position": 12,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "West Ham",
+          "opponentShort": "WHU",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Crystal Palace",
+          "opponentShort": "CRY",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 106,
+        "name": "Nathan Collins",
+        "webName": "Collins",
+        "team": "Brentford",
+        "teamId": 5,
+        "position": "DEF",
+        "price": 5.0,
+        "form": 8.0,
+        "totalPoints": 89,
+        "minutes": 1816,
+        "goals": 1,
+        "assists": 2,
+        "cleanSheets": 5,
+        "selectedBy": 3.0
+      },
+      "position": 13,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Chelsea",
+          "opponentShort": "CHE",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Arsenal",
+          "opponentShort": "ARS",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 303,
+        "name": "James Garner",
+        "webName": "Garner",
+        "team": "Everton",
+        "teamId": 9,
+        "position": "MID",
+        "price": 5.1,
+        "form": 6.5,
+        "totalPoints": 95,
+        "minutes": 1883,
+        "goals": 2,
+        "assists": 3,
+        "cleanSheets": 8,
+        "selectedBy": 3.6
+      },
+      "position": 14,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brighton",
+          "opponentShort": "BHA",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 749,
+        "name": "Mateus Mané",
+        "webName": "Mané",
+        "team": "Wolves",
+        "teamId": 20,
+        "position": "FWD",
+        "price": 4.5,
+        "form": 5.0,
+        "totalPoints": 34,
+        "minutes": 446,
+        "goals": 2,
+        "assists": 2,
+        "cleanSheets": 1,
+        "selectedBy": 0.8
+      },
+      "position": 15,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man City",
+          "opponentShort": "MCI",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Chelsea",
+          "opponentShort": "CHE",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    }
+  ],
+  "starters": [
+    {
+      "player": {
+        "id": 670,
+        "name": "Robin Roefs",
+        "webName": "Roefs",
+        "team": "Sunderland",
+        "teamId": 17,
+        "position": "GKP",
+        "price": 4.9,
+        "form": 5.2,
+        "totalPoints": 95,
+        "minutes": 1890,
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 7,
+        "selectedBy": 12.3
+      },
+      "position": 1,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Crystal Palace",
+          "opponentShort": "CRY",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "West Ham",
+          "opponentShort": "WHU",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Burnley",
+          "opponentShort": "BUR",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Arsenal",
+          "opponentShort": "ARS",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 5
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 5,
+        "name": "Gabriel dos Santos Magalhães",
+        "webName": "Gabriel",
+        "team": "Arsenal",
+        "teamId": 1,
+        "position": "DEF",
+        "price": 6.7,
+        "form": 5.2,
+        "totalPoints": 112,
+        "minutes": 1265,
+        "goals": 3,
+        "assists": 2,
+        "cleanSheets": 9,
+        "selectedBy": 31.5
+      },
+      "position": 2,
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 291,
+        "name": "James Tarkowski",
+        "webName": "Tarkowski",
+        "team": "Everton",
+        "teamId": 9,
+        "position": "DEF",
+        "price": 5.7,
+        "form": 4.5,
+        "totalPoints": 100,
+        "minutes": 1890,
+        "goals": 0,
+        "assists": 1,
+        "cleanSheets": 8,
+        "selectedBy": 12.7
+      },
+      "position": 3,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brighton",
+          "opponentShort": "BHA",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 684,
+        "name": "Malick Thiaw",
+        "webName": "Thiaw",
+        "team": "Newcastle",
+        "teamId": 15,
+        "position": "DEF",
+        "price": 5.1,
+        "form": 4.3,
+        "totalPoints": 75,
+        "minutes": 1487,
+        "goals": 3,
+        "assists": 0,
+        "cleanSheets": 3,
+        "selectedBy": 6.2
+      },
+      "position": 4,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8,
+        "name": "Jurriën Timber",
+        "webName": "J.Timber",
+        "team": "Arsenal",
+        "teamId": 1,
+        "position": "DEF",
+        "price": 6.3,
+        "form": 4.3,
+        "totalPoints": 104,
+        "minutes": 1639,
+        "goals": 2,
+        "assists": 4,
+        "cleanSheets": 9,
+        "selectedBy": 27.4
+      },
+      "position": 5,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 235,
+        "name": "Cole Palmer",
+        "webName": "Palmer",
+        "team": "Chelsea",
+        "teamId": 7,
+        "position": "MID",
+        "price": 10.4,
+        "form": 3.8,
+        "totalPoints": 36,
+        "minutes": 663,
+        "goals": 3,
+        "assists": 1,
+        "cleanSheets": 1,
+        "selectedBy": 12.3
+      },
+      "position": 6,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Crystal Palace",
+          "opponentShort": "CRY",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "West Ham",
+          "opponentShort": "WHU",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 417,
+        "name": "Rayan Cherki",
+        "webName": "Cherki",
+        "team": "Man City",
+        "teamId": 13,
+        "position": "MID",
+        "price": 6.8,
+        "form": 5.5,
+        "totalPoints": 76,
+        "minutes": 834,
+        "goals": 2,
+        "assists": 8,
+        "cleanSheets": 4,
+        "selectedBy": 15.7
+      },
+      "position": 7,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 21,
+        "name": "Declan Rice",
+        "webName": "Rice",
+        "team": "Arsenal",
+        "teamId": 1,
+        "position": "MID",
+        "price": 7.3,
+        "form": 6.3,
+        "totalPoints": 122,
+        "minutes": 1695,
+        "goals": 4,
+        "assists": 7,
+        "cleanSheets": 9,
+        "selectedBy": 26.7
+      },
+      "position": 8,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 47,
+        "name": "Morgan Rogers",
+        "webName": "Rogers",
+        "team": "Aston Villa",
+        "teamId": 2,
+        "position": "MID",
+        "price": 7.6,
+        "form": 6.7,
+        "totalPoints": 101,
+        "minutes": 1867,
+        "goals": 7,
+        "assists": 4,
+        "cleanSheets": 6,
+        "selectedBy": 31.7
+      },
+      "position": 9,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Everton",
+          "opponentShort": "EVE",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Brentford",
+          "opponentShort": "BRE",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Brighton",
+          "opponentShort": "BHA",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 430,
+        "name": "Erling Haaland",
+        "webName": "Haaland",
+        "team": "Man City",
+        "teamId": 13,
+        "position": "FWD",
+        "price": 15.1,
+        "form": 6.8,
+        "totalPoints": 163,
+        "minutes": 1822,
+        "goals": 20,
+        "assists": 4,
+        "cleanSheets": 10,
+        "selectedBy": 74.2
+      },
+      "position": 10,
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "multiplier": 2,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Man Utd",
+          "opponentShort": "MUN",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Wolves",
+          "opponentShort": "WOL",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 136,
+        "name": "Igor Thiago Nascimento Rodrigues",
+        "webName": "Thiago",
+        "team": "Brentford",
+        "teamId": 5,
+        "position": "FWD",
+        "price": 7.1,
+        "form": 6.7,
+        "totalPoints": 120,
+        "minutes": 1752,
+        "goals": 16,
+        "assists": 1,
+        "cleanSheets": 5,
+        "selectedBy": 34.4
+      },
+      "position": 11,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 1,
+      "isStarter": true,
+      "nextFixtures": [
+        {
+          "opponent": "Chelsea",
+          "opponentShort": "CHE",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Arsenal",
+          "opponentShort": "ARS",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 4
+        }
+      ]
+    }
+  ],
+  "bench": [
+    {
+      "player": {
+        "id": 470,
+        "name": "Martin Dúbravka",
+        "webName": "Dúbravka",
+        "team": "Burnley",
+        "teamId": 3,
+        "position": "GKP",
+        "price": 4.0,
+        "form": 3.3,
+        "totalPoints": 63,
+        "minutes": 1890,
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 3,
+        "selectedBy": 33.1
+      },
+      "position": 12,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Liverpool",
+          "opponentShort": "LIV",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Spurs",
+          "opponentShort": "TOT",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Sunderland",
+          "opponentShort": "SUN",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "West Ham",
+          "opponentShort": "WHU",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Crystal Palace",
+          "opponentShort": "CRY",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 106,
+        "name": "Nathan Collins",
+        "webName": "Collins",
+        "team": "Brentford",
+        "teamId": 5,
+        "position": "DEF",
+        "price": 5.0,
+        "form": 8.0,
+        "totalPoints": 89,
+        "minutes": 1816,
+        "goals": 1,
+        "assists": 2,
+        "cleanSheets": 5,
+        "selectedBy": 3.0
+      },
+      "position": 13,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Chelsea",
+          "opponentShort": "CHE",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Arsenal",
+          "opponentShort": "ARS",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 303,
+        "name": "James Garner",
+        "webName": "Garner",
+        "team": "Everton",
+        "teamId": 9,
+        "position": "MID",
+        "price": 5.1,
+        "form": 6.5,
+        "totalPoints": 95,
+        "minutes": 1883,
+        "goals": 2,
+        "assists": 3,
+        "cleanSheets": 8,
+        "selectedBy": 3.6
+      },
+      "position": 14,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Aston Villa",
+          "opponentShort": "AVL",
+          "isHome": false,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Leeds",
+          "opponentShort": "LEE",
+          "isHome": true,
+          "gameweek": 23,
+          "difficulty": 2
+        },
+        {
+          "opponent": "Brighton",
+          "opponentShort": "BHA",
+          "isHome": false,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Fulham",
+          "opponentShort": "FUL",
+          "isHome": false,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": true,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 749,
+        "name": "Mateus Mané",
+        "webName": "Mané",
+        "team": "Wolves",
+        "teamId": 20,
+        "position": "FWD",
+        "price": 4.5,
+        "form": 5.0,
+        "totalPoints": 34,
+        "minutes": 446,
+        "goals": 2,
+        "assists": 2,
+        "cleanSheets": 1,
+        "selectedBy": 0.8
+      },
+      "position": 15,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "multiplier": 0,
+      "isStarter": false,
+      "nextFixtures": [
+        {
+          "opponent": "Newcastle",
+          "opponentShort": "NEW",
+          "isHome": true,
+          "gameweek": 22,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Man City",
+          "opponentShort": "MCI",
+          "isHome": false,
+          "gameweek": 23,
+          "difficulty": 4
+        },
+        {
+          "opponent": "Bournemouth",
+          "opponentShort": "BOU",
+          "isHome": true,
+          "gameweek": 24,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Chelsea",
+          "opponentShort": "CHE",
+          "isHome": true,
+          "gameweek": 25,
+          "difficulty": 3
+        },
+        {
+          "opponent": "Nott'm Forest",
+          "opponentShort": "NFO",
+          "isHome": false,
+          "gameweek": 26,
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

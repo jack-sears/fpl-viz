@@ -121,9 +121,50 @@ class MyTeamService {
   private cachedTeam: MyTeam | null = null;
   private allPlayers: Player[] = [];
 
+  // Try to load team from static file (for GitHub Pages deployment)
+  private async loadTeamFromFile(teamId: number): Promise<MyTeam | null> {
+    try {
+      const teamUrl = `/fpl-viz/data/teams/${teamId}.json`;
+      const response = await fetch(teamUrl);
+      
+      if (!response.ok) {
+        return null; // File doesn't exist
+      }
+      
+      const teamData = await response.json() as MyTeam;
+      console.log(`✅ Loaded team ${teamId} from static file`);
+      
+      // Cache the result
+      this.cachedTeamId = teamId;
+      this.cachedTeam = teamData;
+      
+      // Load players for transfer suggestions if not already loaded
+      if (this.allPlayers.length === 0) {
+        try {
+          this.allPlayers = await dataService.getPlayers();
+        } catch (error) {
+          console.warn('Could not load players data for transfer suggestions');
+        }
+      }
+      
+      return teamData;
+    } catch (error) {
+      console.warn(`Could not load team ${teamId} from static file:`, error);
+      return null;
+    }
+  }
+
   async getTeam(teamId: number): Promise<MyTeam> {
     console.log(`🔄 Fetching team ${teamId}...`);
 
+    // First, try to load from static file (for GitHub Pages)
+    const staticTeam = await this.loadTeamFromFile(teamId);
+    if (staticTeam) {
+      return staticTeam;
+    }
+
+    // If static file doesn't exist, try API (for development)
+    console.log(`⚠️ Static file not found for team ${teamId}, trying API...`);
     try {
       // Fetch all required data in parallel
       const [entryRes, bootstrap, fixtures, historyRes] = await Promise.all([
@@ -263,7 +304,15 @@ class MyTeamService {
       return team;
 
     } catch (error: any) {
-      console.error('Failed to fetch team:', error);
+      console.error('Failed to fetch team from API:', error);
+      
+      // If API fails and we're on GitHub Pages (no static file), show helpful error
+      if (error.code === 'ERR_NETWORK' || error.code === 'ERR_CONNECTION_REFUSED') {
+        throw new Error(
+          `Team ${teamId} data not available. Static team files are required for GitHub Pages deployment. ` +
+          `Run: python scripts/generate_team_data.py ${teamId}`
+        );
+      }
       
       if (error.response?.status === 404) {
         throw new Error('Team not found. Please check your Team ID.');
