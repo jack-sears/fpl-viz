@@ -129,7 +129,4 @@ The built files will be in the `dist/` directory.
 - Add new visualization types by creating new components
 - Extend the data models in `src/types/fpl.ts` to include additional fields
 
-## License
-
-MIT
 

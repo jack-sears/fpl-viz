@@ -10,7 +10,7 @@ res = requests.get(f"{base_url}/{first_game_id}")
 soup = BeautifulSoup(res.content, 'lxml')
 scripts = soup.find_all('script')
 
-#print(scripts)
+print(scripts)
 
 strings  = scripts[2].string
 #print(strings)

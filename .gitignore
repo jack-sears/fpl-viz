@@ -28,6 +28,10 @@ dist-ssr
 .env.local
 .env.production
 
+
+#other
+test-api.html
+
 # Python
 __pycache__/
 *.py[cod]
